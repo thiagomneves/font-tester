@@ -1,26 +1,36 @@
-import { Grid, MenuItem, TextField, Typography } from "@mui/material";
 import fontes from "../json/fontes.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import * as MostraNome from "./mostraNome";
 import BlocoFonte from "./blocoFonte";
 
 export default function FontSelector() {
-  const [nome, setNome] = useState<string>("");
-  const [fonteSelecionada, setFonteSelecionada] = useState<string>("");
+  const [nomePrincipal, setNomePrincipal] = useState<string>("");
+  const [nomeSecundario, setNomeSecundario] = useState<string>("");
+  const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] = useState<string>("");
+  const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] = useState<string>("");
 
   return (
     <section>
       <BlocoFonte
         label="Fonte Principal"
         fontes={fontes}
-        fonteSelecionada={fonteSelecionada}
-        setFonteSelecionada={setFonteSelecionada}
-        nome={nome}
-        setNome={setNome}
+        fonteSelecionada={fonteSelecionadaPrincipal}
+        setFonteSelecionada={setFonteSelecionadaPrincipal}
+        nome={nomePrincipal}
+        setNome={setNomePrincipal}
+      />
+      <BlocoFonte
+        label="Fonte Principal"
+        fontes={fontes}
+        fonteSelecionada={fonteSelecionadaSecundaria}
+        setFonteSelecionada={setFonteSelecionadaSecundaria}
+        nome={nomeSecundario}
+        setNome={setNomeSecundario}
       />
 
-      <MostraNome.div className={fonteSelecionada}>
-        <MostraNome.span>{nome}</MostraNome.span>
+      <MostraNome.div >
+        <MostraNome.span className={fonteSelecionadaPrincipal}>{nomePrincipal}</MostraNome.span>
+        <MostraNome.span className={fonteSelecionadaSecundaria}>{nomeSecundario}</MostraNome.span>
       </MostraNome.div>
     </section>
   );
