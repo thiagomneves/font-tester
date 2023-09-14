@@ -1,7 +1,7 @@
-import { Grid, MenuItem, TextField } from "@mui/material";
+import { Grid, MenuItem, TextField, Typography } from "@mui/material";
 import fontes from "../json/fontes.json";
 import { useEffect, useState } from "react";
-import MostraNome from "./fontSpan";
+import * as MostraNome from "./mostraNome";
 
 interface Fonte {
   nome: string;
@@ -49,6 +49,9 @@ export default function FontSelector() {
 
   return (
     <section>
+      <Typography variant="h6" gutterBottom>
+        Fonte principal
+      </Typography>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={4}>
           <TextField
@@ -99,7 +102,11 @@ export default function FontSelector() {
         </Grid>
       </Grid>
 
-      <MostraNome className={fonteSelecionada}>{nome}</MostraNome>
+      <MostraNome.div className={fonteSelecionada}>
+        <MostraNome.span>
+          {nome}
+        </MostraNome.span>
+      </MostraNome.div>
     </section>
   );
 }
