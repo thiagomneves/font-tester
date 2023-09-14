@@ -1,6 +1,7 @@
 import { Grid, MenuItem, TextField } from "@mui/material";
 import fontes from "../json/fontes.json";
 import { useEffect, useState } from "react";
+import MostraNome from "./fontSpan";
 
 interface Fonte {
   nome: string;
@@ -39,6 +40,11 @@ export default function FontSelector() {
     } else {
       setFontesFiltradas([...fontes]);
     }
+  }
+
+  function selecionaTipo(e: React.ChangeEvent<HTMLInputElement>) {
+    setTipoSelecionado(e.target.value)
+    setFonteSelecionada('')
   }
 
   return (
@@ -81,7 +87,7 @@ export default function FontSelector() {
             helperText="Filtrar por tipo"
             label="Tipo"
             variant={variant}
-            onChange={(e) => setTipoSelecionado(e.target.value)}
+            onChange={selecionaTipo}
             fullWidth
           >
             {tipos.map((tipo) => (
@@ -93,7 +99,7 @@ export default function FontSelector() {
         </Grid>
       </Grid>
 
-      <span className={fonteSelecionada}>{nome}</span>
+      <MostraNome className={fonteSelecionada}>{nome}</MostraNome>
     </section>
   );
 }
