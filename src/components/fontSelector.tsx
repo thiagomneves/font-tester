@@ -20,7 +20,7 @@ export default function FontSelector() {
         setNome={setNomePrincipal}
       />
       <BlocoFonte
-        label="Fonte Principal"
+        label="Fonte Secundaria"
         fontes={fontes}
         fonteSelecionada={fonteSelecionadaSecundaria}
         setFonteSelecionada={setFonteSelecionadaSecundaria}
