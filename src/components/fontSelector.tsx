@@ -31,12 +31,16 @@ export default function FontSelector() {
       />
 
       <MostraNome.div>
+        { nomePrincipal.trim() || nomeSecundario.trim() ? 
+        <>
         <MostraNome.span className={fonteSelecionadaPrincipal}>
           {nomePrincipal}
         </MostraNome.span>
         <MostraNome.span className={fonteSelecionadaSecundaria}>
           {nomeSecundario}
         </MostraNome.span>
+        </>
+        : <MostraNome.span>&nbsp;</MostraNome.span>}
       </MostraNome.div>
     </section>
   )
