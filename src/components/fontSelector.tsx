@@ -10,6 +10,19 @@ export default function FontSelector() {
     useState<string>('')
   const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] =
     useState<string>('')
+  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 })
+  const [isVisible, setIsVisible] = useState<boolean>(false)
+
+  const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>): void => {
+    const x = e.clientX
+    const y = e.clientY
+    setTooltipPosition({ x, y })
+    setIsVisible(true)
+  }
+
+  const handleMouseOut = (): void => {
+    setIsVisible(false)
+  }
 
   return (
     <section>
@@ -30,18 +43,31 @@ export default function FontSelector() {
         setNome={setNomeSecundario}
       />
 
-      <MostraNome.div>
-        { nomePrincipal.trim() || nomeSecundario.trim() ? 
-        <>
-        <MostraNome.span className={fonteSelecionadaPrincipal}>
-          {nomePrincipal}
-        </MostraNome.span>
-        <MostraNome.span className={fonteSelecionadaSecundaria}>
-          {nomeSecundario}
-        </MostraNome.span>
-        </>
-        : <MostraNome.span>&nbsp;</MostraNome.span>}
-      </MostraNome.div>
+      <MostraNome.Div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        {nomePrincipal.trim() || nomeSecundario.trim() ? (
+          <>
+            <MostraNome.Span className={fonteSelecionadaPrincipal}>
+              {nomePrincipal}
+            </MostraNome.Span>
+            <MostraNome.Span className={fonteSelecionadaSecundaria}>
+              {nomeSecundario}
+            </MostraNome.Span>
+          </>
+        ) : (
+          <MostraNome.Span>&nbsp;</MostraNome.Span>
+        )}
+      </MostraNome.Div>
+      {isVisible && (
+        <MostraNome.Tooltip
+          style={{
+            position: 'absolute',
+            top: `${tooltipPosition.y + 10}px`, // Ajuste a posição vertical como desejar
+            left: `${tooltipPosition.x + 10}px`, // Ajuste a posição horizontal como desejar
+          }}
+        >
+          Conteúdo do Tooltip
+        </MostraNome.Tooltip>
+      )}
     </section>
   )
 }
