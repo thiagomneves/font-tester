@@ -1,108 +1,4678 @@
 [
-  { "nome": "Abel", "classe": "abelfont", "tipo": "sans-serif" },
-  { "nome": "Aileron", "classe": "aileron", "tipo": "sans-serif" },
-  { "nome": "Aleo", "classe": "aleofont", "tipo": "sans-serif" },
-  { "nome": "Allerta", "classe": "allertafont", "tipo": "sans-serif" },
-  { "nome": "Amaranth", "classe": "amaranthfont", "tipo": "sans-serif" },
-  { "nome": "Amatic SC", "classe": "amaticscfont", "tipo": "cursive" },
-  { "nome": "Arial", "classe": "arial", "tipo": "sans-serif" },
-  { "nome": "Arbutus Slab", "classe": "arbutusslabfont", "tipo": "serif" },
-  { "nome": "Arizonia", "classe": "arizoniafont", "tipo": "cursive" },
-  { "nome": "Artifika", "classe": "artifikafont", "tipo": "serif" },
-  { "nome": "Asap", "classe": "asapfont", "tipo": "sans-serif" },
-  { "nome": "Asul", "classe": "asulfont", "tipo": "sans-serif" },
-  { "nome": "Avenir", "classe": "avenir", "tipo": "sans-serif" },
-  { "nome": "Baumans", "classe": "baumansfont", "tipo": "cursive" },
-  { "nome": "Be Vietnam", "classe": "bevietnamfont", "tipo": "sans-serif" },
-  { "nome": "Bebas Kai", "classe": "bebas-kai", "tipo": "sans-serif" },
-  { "nome": "Bebas Neue", "classe": "bebasneuefont", "tipo": "cursive" },
-  { "nome": "Belgrano", "classe": "belgranofont", "tipo": "cursive" },
-  { "nome": "BenchNine", "classe": "benchninefont", "tipo": "sans-serif" },
-  { "nome": "Calibri", "classe": "calibri", "tipo": "sans-serif" },
-  { "nome": "Cabin", "classe": "cabinfont", "tipo": "sans-serif" },
-  { "nome": "Calling Heart", "classe": "calling-heart", "tipo": "sans-serif" },
-  { "nome": "Catamaran", "classe": "catamaranfont", "tipo": "sans-serif" },
-  { "nome": "Changa One", "classe": "changaonefont", "tipo": "cursive" },
-  { "nome": "Cinzel", "classe": "cinzelfont", "tipo": "serif" },
-  { "nome": "Cinzel Decorative", "classe": "cinzeldecorativefont", "tipo": "cursive" },
-  { "nome": "Condiment", "classe": "condimentfont", "tipo": "cursive" },
-  { "nome": "Cormorant", "classe": "cormorantfont", "tipo": "serif" },
-  { "nome": "Coustard", "classe": "coustardfont", "tipo": "serif" },
-  { "nome": "Courier New", "classe": "courier-new", "tipo": "sans-serif" },
-  { "nome": "Days One", "classe": "dayonefont", "tipo": "sans-serif" },
-  { "nome": "Dosis", "classe": "dosisfont", "tipo": "sans-serif" },
-  { "nome": "Encode Sans Semi Condensed", "classe": "encodesanssemicondensedfont", "tipo": "sans-serif" },
-  { "nome": "Exo", "classe": "exofont", "tipo": "sans-serif" },
-  { "nome": "Expletus Sans", "classe": "expletussansfont", "tipo": "cursive" },
-  { "nome": "Fira Sans", "classe": "firasansfont", "tipo": "sans-serif" },
-  { "nome": "Fjalla One", "classe": "fjallaonefont", "tipo": "sans-serif" },
-  { "nome": "Francois One", "classe": "francoisonefont", "tipo": "sans-serif" },
-  { "nome": "Futura", "classe": "futura", "tipo": "sans-serif" },
-  { "nome": "Gill Sans", "classe": "gill-sans", "tipo": "sans-serif" },
-  { "nome": "Gravitas One", "classe": "gravitasonefont", "tipo": "cursive" },
-  { "nome": "Hack", "classe": "hack", "tipo": "sans-serif" },
-  { "nome": "Hind", "classe": "hindfont", "tipo": "sans-serif" },
-  { "nome": "Iceberg", "classe": "icebergfont", "tipo": "cursive" },
-  { "nome": "Inconsolata", "classe": "inconsolatafont", "tipo": "monospace" },
-  { "nome": "Jaldi", "classe": "jaldifont", "tipo": "sans-serif" },
-  { "nome": "Jomolhari", "classe": "jomolharifont", "tipo": "serif" },
-  { "nome": "Josefin Sans", "classe": "josefinsansfont", "tipo": "sans-serif" },
-  { "nome": "Junge", "classe": "jungefont", "tipo": "serif" },
-  { "nome": "Jura", "classe": "jurafont", "tipo": "sans-serif" },
-  { "nome": "Kanit", "classe": "kanit", "tipo": "sans-serif" },
-  { "nome": "Karla", "classe": "karlafont", "tipo": "sans-serif" },
-  { "nome": "Karma", "classe": "karmafont", "tipo": "serif" },
-  { "nome": "Knewave", "classe": "knewavefont", "tipo": "cursive" },
-  { "nome": "Lalezar", "classe": "lalezarfont", "tipo": "cursive" },
-  { "nome": "Lato", "classe": "latofont", "tipo": "sans-serif" },
-  { "nome": "Lobster", "classe": "lobsterfont", "tipo": "cursive" },
-  { "nome": "Lora", "classe": "lorafont", "tipo": "serif" },
-  { "nome": "Marcellus SC", "classe": "marcellusscfont", "tipo": "serif" },
-  { "nome": "Marvel", "classe": "marvelfont", "tipo": "sans-serif" },
-  { "nome": "Miltonian", "classe": "miltonianfont", "tipo": "cursive" },
-  { "nome": "Montserrat", "classe": "montserratfont", "tipo": "sans-serif" },
-  { "nome": "Montserrat Alternates", "classe": "montserratalternatesfont", "tipo": "sans-serif" },
-  { "nome": "Moli", "classe": "molifont", "tipo": "sans-serif" },
-  { "nome": "Nanum Myeongjo", "classe": "nanummyeongjofont", "tipo": "serif" },
-  { "nome": "Neucha", "classe": "neucha", "tipo": "cursive" },
-  { "nome": "News Cycle", "classe": "newscyclefont", "tipo": "sans-serif" },
-  { "nome": "Nexa Bold", "classe": "nexa-bold", "tipo": "sans-serif" },
-  { "nome": "Noto Sans", "classe": "notosansfont", "tipo": "sans-serif" },
-  { "nome": "Nunito", "classe": "nunitofont", "tipo": "sans-serif" },
-  { "nome": "Open Sans", "classe": "opensansfont", "tipo": "sans-serif" },
-  { "nome": "Overlock", "classe": "overlockfont", "tipo": "cursive" },
-  { "nome": "Oxygen", "classe": "oxygenfont", "tipo": "sans-serif" },
-  { "nome": "Patrick Hand", "classe": "patrickhandfont", "tipo": "cursive" },
-  { "nome": "Pattaya", "classe": "pattayafont", "tipo": "sans-serif" },
-  { "nome": "Paytone One", "classe": "paytoneonefont", "tipo": "sans-serif" },
-  { "nome": "Poppins", "classe": "poppinsfont", "tipo": "sans-serif" },
-  { "nome": "Prata", "classe": "pratafont", "tipo": "serif" },
-  { "nome": "PT Sans", "classe": "ptsansfont", "tipo": "sans-serif" },
-  { "nome": "Questrial", "classe": "questrialfont", "tipo": "sans-serif" },
-  { "nome": "Quicksand", "classe": "quicksandfont", "tipo": "sans-serif" },
-  { "nome": "Rajdhani", "classe": "rajdhanifont", "tipo": "sans-serif" },
-  { "nome": "Rakkas", "classe": "rakkasfont", "tipo": "cursive" },
-  { "nome": "Raleway", "classe": "ralewayfont", "tipo": "sans-serif" },
-  { "nome": "Rasa", "classe": "rasafont", "tipo": "cursive" },
-  { "nome": "Roboto", "classe": "robotofont", "tipo": "sans-serif" },
-  { "nome": "Romanesco", "classe": "romanescofont", "tipo": "cursive" },
-  { "nome": "Sanchez", "classe": "sanchezfont", "tipo": "serif" },
-  { "nome": "Sansita Swashed", "classe": "sansitaswashedfont", "tipo": "cursive" },
-  { "nome": "Satisfy", "classe": "satisfyfont", "tipo": "cursive" },
-  { "nome": "Share", "classe": "sharefont", "tipo": "sans-serif" },
-  { "nome": "Share Tech", "classe": "sharetechfont", "tipo": "sans-serif" },
-  { "nome": "Share Tech Mono", "classe": "sharetechmonofont", "tipo": "monospace" },
-  { "nome": "Source Code Pro", "classe": "sourcecodeprofont", "tipo": "monospace" },
-  { "nome": "Source Sans Pro", "classe": "sourcesansprofont", "tipo": "sans-serif" },
-  { "nome": "Special Elite", "classe": "specialeslabfont", "tipo": "cursive" },
-  { "nome": "Spectral SC", "classe": "spectralscfont", "tipo": "serif" },
-  { "nome": "Stylish", "classe": "stylishfont", "tipo": "sans-serif" },
-  { "nome": "Teko", "classe": "tekofont", "tipo": "sans-serif" },
-  { "nome": "Text Me One", "classe": "textmeonefont", "tipo": "sans-serif" },
-  { "nome": "Ubuntu", "classe": "ubuntufont", "tipo": "sans-serif" },
-  { "nome": "Uncial Antiqua", "classe": "uncialantiquafont", "tipo": "cursive" },
-  { "nome": "Work Sans", "classe": "worksansfont", "tipo": "sans-serif" },
-  { "nome": "Yrsa", "classe": "yrsafont", "tipo": "serif" },
-  { "nome": "Zilla Slab", "classe": "zillaslabfont", "tipo": "serif" },
-  { "nome": "Zilla Slab Highlight", "classe": "zillaslabhighlightfont", "tipo": "cursive" }
+  {
+    "nome": "Abel",
+    "classe": "abel",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Aileron",
+    "classe": "aileron",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 250,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 250,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Aleo",
+    "classe": "aleo",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin Italic",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight Italic",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light Italic",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Allerta",
+    "classe": "allerta",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Amaranth",
+    "classe": "amaranth",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Amatic SC",
+    "classe": "amatic-sc",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Arbutus Slab",
+    "classe": "arbutus-slab",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Archivo",
+    "site": "google",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ],
+    "classe": "archivo"
+  },
+  {
+    "nome": "Arial",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ],
+    "classe": "arial"
+  },
+  {
+    "nome": "Arial Black",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ],
+    "classe": "arial-black"
+  },
+  {
+    "nome": "Arial CE",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      }
+    ],
+    "classe": "arial-ce"
+  },
+  {
+    "nome": "Arial CE MT Black",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ],
+    "classe": "arial-ce-mt-black"
+  },
+  {
+    "nome": "Arial Light",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      }
+    ],
+    "classe": "arial-light"
+  },
+  {
+    "nome": "Arizonia",
+    "classe": "arizonia",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Artifika",
+    "classe": "artifika",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Asap",
+    "classe": "asap",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Asul",
+    "classe": "asul",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Audiowide",
+    "site": "google",
+    "tipo": "cursive",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ],
+    "classe": "audiowide"
+  },
+  {
+    "nome": "Avenir",
+    "classe": "avenir",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Barlow",
+    "site": "google",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ],
+    "classe": "barlow"
+  },
+  {
+    "nome": "Baumans",
+    "classe": "baumans",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Be Vietnam Pro",
+    "classe": "be-vietnam-pro",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Bebas Kai",
+    "classe": "bebas-kai",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Bebas Neue",
+    "classe": "bebas-neue",
+    "tipo": "cursive",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Belgrano",
+    "classe": "belgrano",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "BenchNine",
+    "classe": "benchnine",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Berkshire Swash",
+    "site": "google",
+    "tipo": "cursive",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ],
+    "classe": "berkshire-swash"
+  },
+  {
+    "nome": "Cabin",
+    "classe": "cabin",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Calibri",
+    "classe": "calibri",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Calling Heart",
+    "classe": "calling-heart",
+    "tipo": "cursive",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Catamaran",
+    "classe": "catamaran",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Changa One",
+    "classe": "changa-one",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Cinzel",
+    "classe": "cinzel",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 250,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 250,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Italic",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Cinzel Decorative",
+    "classe": "cinzel-decorative",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Condiment",
+    "classe": "condiment",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Cormorant",
+    "classe": "cormorant",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Coustard",
+    "classe": "coustard",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Days One",
+    "classe": "days-one",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Dosis",
+    "classe": "dosis",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Encode Sans Semi Condensed",
+    "classe": "encode-sans-semi-condensed",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Exo 2",
+    "classe": "exo-2",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin Italic",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight Italic",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light Italic",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Expletus Sans",
+    "classe": "expletus-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Fira Sans",
+    "classe": "fira-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Fjalla One",
+    "classe": "fjalla-one",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Francois One",
+    "classe": "francois-one",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Futura Std",
+    "classe": "futura-std",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 650,
+        "description": "650",
+        "italic": false
+      },
+      {
+        "weight": 650,
+        "description": "650",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 750,
+        "description": "750",
+        "italic": false
+      },
+      {
+        "weight": 750,
+        "description": "750",
+        "italic": false
+      },
+      {
+        "weight": 750,
+        "description": "750",
+        "italic": true
+      },
+      {
+        "weight": 750,
+        "description": "750",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Gill Sans Std",
+    "classe": "gill-sans-std",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "800",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "800",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "900",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "900",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Gravitas One",
+    "classe": "gravitas-one",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Hack",
+    "classe": "hack",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Hind",
+    "classe": "hind",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Homenaje",
+    "site": "google",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ],
+    "classe": "homenaje"
+  },
+  {
+    "nome": "Iceberg",
+    "classe": "iceberg",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Inconsolata",
+    "classe": "inconsolata",
+    "tipo": "monospace",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Jaldi",
+    "classe": "jaldi",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Jomolhari",
+    "classe": "jomolhari",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Josefin Sans",
+    "classe": "josefin-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Junge",
+    "classe": "junge",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Jura",
+    "classe": "jura",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Kanit",
+    "classe": "kanit",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Karla",
+    "classe": "karla",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Karma",
+    "classe": "karma",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Knewave",
+    "classe": "knewave",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Lalezar",
+    "classe": "lalezar",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Lato",
+    "classe": "lato",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Lobster",
+    "classe": "lobster",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Lora",
+    "classe": "lora",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Marcellus SC",
+    "classe": "marcellus-sc",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Marvel",
+    "classe": "marvel",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Miltonian",
+    "classe": "miltonian",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Molle",
+    "site": "cdnfonts",
+    "tipo": "cursive",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ],
+    "classe": "molle"
+  },
+  {
+    "nome": "Monaco",
+    "site": "cdnfonts",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ],
+    "classe": "monaco"
+  },
+  {
+    "nome": "Montserrat",
+    "classe": "montserrat",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Montserrat Alternates",
+    "classe": "montserrat-alternates",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Mulish",
+    "site": "google",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      },
+      {
+        "weight": 1000,
+        "description": "Weight: 1000",
+        "italic": false
+      },
+      {
+        "weight": 1000,
+        "description": "Weight: 1000",
+        "italic": true
+      }
+    ],
+    "classe": "mulish"
+  },
+  {
+    "nome": "Nanum Myeongjo",
+    "classe": "nanum-myeongjo",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Neucha",
+    "classe": "neucha",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "News Cycle",
+    "classe": "news-cycle",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Nexa",
+    "classe": "nexa",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Noto Sans",
+    "classe": "noto-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Nunito",
+    "classe": "nunito",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      },
+      {
+        "weight": 1000,
+        "description": "Weight: 1000",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Open Sans",
+    "classe": "open-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Overlock",
+    "classe": "overlock",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Oxygen",
+    "classe": "oxygen",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Patrick Hand",
+    "classe": "patrick-hand",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Pattaya",
+    "classe": "pattaya",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Paytone One",
+    "classe": "paytone-one",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Poppins",
+    "classe": "poppins",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Prata",
+    "classe": "prata",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Prosto Sans",
+    "site": "cdnfonts",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 700,
+        "description": "Regular",
+        "italic": false
+      }
+    ],
+    "classe": "prosto-sans"
+  },
+  {
+    "nome": "Proxima Nova Condensed",
+    "site": "cdnfonts",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 250,
+        "description": "250",
+        "italic": false
+      },
+      {
+        "weight": 250,
+        "description": "250",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "300",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "300",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "600",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "600",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "700",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "700",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "800",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "800",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "900",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "900",
+        "italic": false
+      }
+    ],
+    "classe": "proxima-nova-condensed"
+  },
+  {
+    "nome": "Proxima Nova Extra Condensed",
+    "site": "cdnfonts",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 250,
+        "description": "250",
+        "italic": false
+      },
+      {
+        "weight": 250,
+        "description": "250",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "300",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "300",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "600",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "600",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "700",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "700",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "800",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "800",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "900",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "900",
+        "italic": false
+      }
+    ],
+    "classe": "proxima-nova-extra-condensed"
+  },
+  {
+    "nome": "PT Sans",
+    "classe": "pt-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Questrial",
+    "classe": "questrial",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Quicksand",
+    "classe": "quicksand",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Rajdhani",
+    "classe": "rajdhani",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Rakkas",
+    "classe": "rakkas",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Raleway",
+    "classe": "raleway",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Rasa",
+    "classe": "rasa",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Roboto",
+    "classe": "roboto",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Romanesco",
+    "classe": "romanesco",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Sanchez",
+    "classe": "sanchez",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Sansita Swashed",
+    "classe": "sansita-swashed",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Satisfy",
+    "classe": "satisfy",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Share",
+    "classe": "share",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Share Tech",
+    "classe": "share-tech",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Share Tech Mono",
+    "classe": "share-tech-mono",
+    "tipo": "monospace",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Source Code Pro",
+    "classe": "source-code-pro",
+    "tipo": "monospace",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Source Sans 3",
+    "classe": "source-sans-3",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Special Elite",
+    "classe": "special-elite",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Spectral",
+    "classe": "spectral",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Spectral SC",
+    "classe": "spectral-sc",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Stylish",
+    "classe": "stylish",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Sulphur Point",
+    "site": "google",
+    "tipo": "sans-serif",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ],
+    "classe": "sulphur-point"
+  },
+  {
+    "nome": "Teko",
+    "classe": "teko",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Text Me One",
+    "classe": "text-me-one",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Ubuntu",
+    "classe": "ubuntu",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Uncial Antiqua",
+    "classe": "uncial-antiqua",
+    "tipo": "cursive",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "nome": "Work Sans",
+    "classe": "work-sans",
+    "tipo": "sans-serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": false
+      },
+      {
+        "weight": 100,
+        "description": "Thin",
+        "italic": true
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": false
+      },
+      {
+        "weight": 200,
+        "description": "ExtraLight",
+        "italic": true
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": false
+      },
+      {
+        "weight": 800,
+        "description": "ExtraBold",
+        "italic": true
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": false
+      },
+      {
+        "weight": 900,
+        "description": "Black",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Yrsa",
+    "classe": "yrsa",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "nome": "Zilla Slab",
+    "classe": "zilla-slab",
+    "tipo": "serif",
+    "site": "google",
+    "variantes": [
+      {
+        "weight": 300,
+        "description": "Light",
+        "italic": false
+      },
+      {
+        "weight": 300,
+        "description": "Light Italic",
+        "italic": true
+      },
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false
+      },
+      {
+        "weight": 400,
+        "description": "Regular Italic",
+        "italic": true
+      },
+      {
+        "weight": 500,
+        "description": "Medium",
+        "italic": false
+      },
+      {
+        "weight": 500,
+        "description": "Medium Italic",
+        "italic": true
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold",
+        "italic": false
+      },
+      {
+        "weight": 600,
+        "description": "SemiBold Italic",
+        "italic": true
+      },
+      {
+        "weight": 700,
+        "description": "Bold",
+        "italic": false
+      },
+      {
+        "weight": 700,
+        "description": "Bold Italic",
+        "italic": true
+      }
+    ]
+  }
 ]

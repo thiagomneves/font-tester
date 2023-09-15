@@ -1,20 +1,20 @@
-import { Grid, MenuItem, TextField, Typography } from "@mui/material";
-import { useEffect, useState } from "react";
+import { Grid, MenuItem, TextField, Typography } from '@mui/material'
+import { useEffect, useState } from 'react'
 
 interface Fonte {
-  nome: string;
-  tipo: string;
-  classe: string;
+  nome: string
+  tipo: string
+  classe: string
 }
 
 interface Props {
-  label: string;
-  fontes: Fonte[];
-  fonteSelecionada: string;
-  setFonteSelecionada: React.Dispatch<React.SetStateAction<string>>;
-  variant?: "standard" | "outlined" | "filled";
-  nome: string;
-  setNome: React.Dispatch<React.SetStateAction<string>>;
+  label: string
+  fontes: Fonte[]
+  fonteSelecionada: string
+  setFonteSelecionada: React.Dispatch<React.SetStateAction<string>>
+  variant?: 'standard' | 'outlined' | 'filled'
+  nome: string
+  setNome: React.Dispatch<React.SetStateAction<string>>
 }
 
 export default function BlocoFonte({
@@ -22,42 +22,42 @@ export default function BlocoFonte({
   fontes,
   fonteSelecionada,
   setFonteSelecionada,
-  variant = "outlined",
+  variant = 'outlined',
   nome,
   setNome,
 }: Props) {
-  const [tipoSelecionado, setTipoSelecionado] = useState<string>("");
-  const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes);
-  const [tipos, setTipos] = useState<string[]>([]);
+  const [tipoSelecionado, setTipoSelecionado] = useState<string>('')
+  const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes)
+  const [tipos, setTipos] = useState<string[]>([])
 
   useEffect(() => {
-    obtemFontesFiltradas();
-  }, [tipoSelecionado]);
+    obtemFontesFiltradas()
+  }, [tipoSelecionado])
 
   useEffect(() => {
-    obtemTipos();
-  }, []);
+    obtemTipos()
+  }, [])
 
   function obtemTipos() {
-    const tiposUnicos = new Set<string>();
-    fontes.forEach((fonte: Fonte) => tiposUnicos.add(fonte.tipo));
-    setTipos(["", ...tiposUnicos]);
+    const tiposUnicos = new Set<string>()
+    fontes.forEach((fonte: Fonte) => tiposUnicos.add(fonte.tipo))
+    setTipos(['', ...tiposUnicos])
   }
 
   function obtemFontesFiltradas() {
     if (tipoSelecionado.trim()) {
       const novaFontes = fontes.filter(
         (fonte: Fonte) => fonte.tipo === tipoSelecionado
-      );
-      setFontesFiltradas([...novaFontes]);
+      )
+      setFontesFiltradas([...novaFontes])
     } else {
-      setFontesFiltradas([...fontes]);
+      setFontesFiltradas([...fontes])
     }
   }
 
   function selecionaTipo(e: React.ChangeEvent<HTMLInputElement>) {
-    setTipoSelecionado(e.target.value);
-    setFonteSelecionada("");
+    setTipoSelecionado(e.target.value)
+    setFonteSelecionada('')
   }
 
   return (
@@ -108,12 +108,12 @@ export default function BlocoFonte({
           >
             {tipos.map((tipo) => (
               <MenuItem key={tipo} value={tipo}>
-                {tipo === "" ? "Todos..." : tipo}
+                {tipo === '' ? 'Todos...' : tipo}
               </MenuItem>
             ))}
           </TextField>
         </Grid>
       </Grid>
     </>
-  );
+  )
 }
