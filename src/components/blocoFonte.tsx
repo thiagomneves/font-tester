@@ -24,7 +24,7 @@ export default function BlocoFonte({
   fontes,
   fonteSelecionada,
   setFonteSelecionada,
-  variant = 'outlined',
+  variant = 'standard',
   nome,
   setNome,
   tamanho,
@@ -131,6 +131,7 @@ export default function BlocoFonte({
             label="Tamanho"
             type="number"
             value={tamanho.toString()}
+            variant={variant}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTamanho(parseInt(e.target.value))}
             InputLabelProps={{
               shrink: true,
