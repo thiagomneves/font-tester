@@ -73,7 +73,7 @@ export default function BlocoFonte({
         {label}
       </Typography>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} md={4}>
           <TextField
             id="nome"
             defaultValue={nome}

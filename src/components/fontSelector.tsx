@@ -1,10 +1,10 @@
 import fontes from '../json/fontes.json'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import * as MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
-import { Button } from '@mui/material'
+import { Button, Grid } from '@mui/material'
 import AddIcon from '@mui/icons-material/Add'
-import FontSizeAjuster from '../utils/fontSizeAjuster'
+import { ColorPicker } from 'material-ui-color'
 
 export default function FontSelector() {
   const [nomePrincipal, setNomePrincipal] = useState<string>('unya')
@@ -33,6 +33,10 @@ export default function FontSelector() {
     console.log('clicou salvar')
   }
 
+  const [corPrimaria, setCorPrimaria] = useState('#000')
+  const [corSecundaria, setCorSecundaria] = useState('#000')
+  const [corFundo, setCorFundo] = useState('#fff')
+
   return (
     <section>
       <BlocoFonte
@@ -55,18 +59,52 @@ export default function FontSelector() {
         tamanho={tamanhoSecundario}
         setTamanho={setTamanhoSecundario}
       />
-      <Button onClick={salvar} variant="contained">
-        <AddIcon />
-        &nbsp;Adicionar
-      </Button>
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={6} md={3}>
+          <ColorPicker
+            value={corPrimaria}
+            onChange={(e) => setCorPrimaria(e.css.backgroundColor!)}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <ColorPicker
+            value={corSecundaria}
+            onChange={(e) => setCorSecundaria(e.css.backgroundColor!)}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <ColorPicker
+            value={corFundo}
+            onChange={(e) => setCorFundo(e.css.backgroundColor!)}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Button onClick={salvar} variant="contained">
+            <AddIcon />
+            &nbsp;Adicionar
+          </Button>
+        </Grid>
+      </Grid>
 
-      <MostraNome.Div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+      <MostraNome.Div
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
+        $cor={corFundo}
+      >
         {nomePrincipal.trim() || nomeSecundario.trim() ? (
           <>
-            <MostraNome.Span className={fonteSelecionadaPrincipal} tamanho={tamanhoPrincipal}>
+            <MostraNome.Span
+              className={fonteSelecionadaPrincipal}
+              $tamanho={tamanhoPrincipal}
+              $cor={corPrimaria}
+            >
               {nomePrincipal}
             </MostraNome.Span>
-            <MostraNome.Span className={fonteSelecionadaSecundaria} tamanho={tamanhoSecundario}>
+            <MostraNome.Span
+              className={fonteSelecionadaSecundaria}
+              $tamanho={tamanhoSecundario}
+              $cor={corSecundaria}
+            >
               {nomeSecundario}
             </MostraNome.Span>
           </>
