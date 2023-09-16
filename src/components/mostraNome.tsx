@@ -1,9 +1,18 @@
-import { useState } from 'react'
-import { Grid, ListItemText, ListSubheader, Paper } from '@mui/material'
+import { useContext, useState } from 'react'
+import {
+  Grid,
+  IconButton,
+  ListItemText,
+  ListSubheader,
+  Paper,
+  Tooltip,
+} from '@mui/material'
+import CloseIcon from '@mui/icons-material/Close'
 import styled from 'styled-components'
 import { FontGroupData } from '../types/FontGroupData'
+import { LocalStorageContext } from '../contexts/LocalStorageContext'
 
-export const MyPaper = styled(Paper)<{ $cor: string }>`
+const MyPaper = styled(Paper)<{ $cor: string }>`
   margin: 10px;
   padding: 10px;
   text-align: center;
@@ -11,12 +20,12 @@ export const MyPaper = styled(Paper)<{ $cor: string }>`
   border-radius: 5px;
   background-color: ${(props) => props.$cor};
 `
-export const Span = styled.span<{ $tamanho?: number; $cor: string }>`
+const Span = styled.span<{ $tamanho?: number; $cor?: string }>`
   font-size: ${(props) => props.$tamanho}px;
   color: ${(props) => props.$cor};
 `
 
-export const Tooltip = styled.div`
+const MyTooltip = styled.div`
   position: absolute;
   padding: 10px;
   border-radius: 5px;
@@ -34,18 +43,36 @@ export default function MostraNome({
   dados,
   estatico = false,
 }: MostraNomeProps) {
+  const { removeItemById } = useContext(LocalStorageContext)
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 })
   const [isVisible, setIsVisible] = useState<boolean>(false)
+  const [isMouseOverCLose, setIsMouseOverClose] = useState<boolean>(false)
+
   const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>): void => {
-    const x = e.clientX
-    const y = e.clientY
-    setTooltipPosition({ x, y })
-    setIsVisible(true)
+    if (!isMouseOverCLose) {
+      const x = e.clientX
+      const y = e.clientY
+      setTooltipPosition({ x, y })
+      setIsVisible(true)
+    }
   }
 
   const handleMouseOut = (): void => {
     setIsVisible(false)
   }
+
+  const handleMouseOverClose = (): void => {
+    setIsMouseOverClose(true)
+  }
+
+  const handleMouseOutClose = (): void => {
+    setIsMouseOverClose(false)
+  }
+
+  const apagar = (id: string): void => {
+    removeItemById(id)
+  }
+
   return (
     <>
       <MyPaper
@@ -74,9 +101,21 @@ export default function MostraNome({
         ) : (
           <Span>&nbsp;</Span>
         )}
+        {estatico && (
+          <Tooltip
+            title="Apagar"
+            onMouseOver={handleMouseOverClose}
+            onMouseOut={handleMouseOutClose}
+            onClick={() => apagar(dados.id!)}
+          >
+            <IconButton>
+              <CloseIcon />
+            </IconButton>
+          </Tooltip>
+        )}
       </MyPaper>
       {estatico && isVisible && (
-        <Tooltip
+        <MyTooltip
           style={{
             position: 'absolute',
             top: `${tooltipPosition.y + 10}px`, // Ajuste a posição vertical como desejar
@@ -134,7 +173,7 @@ export default function MostraNome({
               Fundo: {dados.fundo.cor}
             </ListSubheader>
           </Grid>
-        </Tooltip>
+        </MyTooltip>
       )}
     </>
   )

@@ -3,9 +3,9 @@ import { Button, Card, Grid } from '@mui/material'
 import { ColorPicker } from 'material-ui-color'
 import AddIcon from '@mui/icons-material/Add'
 import styled from 'styled-components'
+import { v4 as uuidv4 } from 'uuid'
 
 import fontes from '../json/fontes.json'
-import { useLocalStorageArray } from '../hooks/useLocalStorage'
 import { LocalStorageContext } from '../contexts/LocalStorageContext'
 import MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
@@ -18,8 +18,6 @@ const FontSelectorContainer = styled.div`
 export default function FontSelector() {
   const { localStorageData, setLocalStorageData } =
     useContext(LocalStorageContext)
-  const [data, setData] = useLocalStorageArray(localStorageData)
-
   const [nomePrincipal, setNomePrincipal] = useState<string>('nome')
   const [nomeSecundario, setNomeSecundario] = useState<string>('')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
@@ -31,6 +29,7 @@ export default function FontSelector() {
 
   const salvar = (): void => {
     const novosDados: FontGroupData = {
+      id: uuidv4(),
       principal: {
         nome: nomePrincipal,
         fonte: fonteSelecionadaPrincipal,
@@ -47,10 +46,6 @@ export default function FontSelector() {
         cor: corFundo,
       },
     }
-    setData({
-      ...data,
-      dados: [...data.dados, novosDados],
-    })
 
     setLocalStorageData({
       ...localStorageData,
@@ -106,9 +101,12 @@ export default function FontSelector() {
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-              <Button onClick={salvar} variant="contained">
-                <AddIcon />
-                &nbsp;Adicionar
+              <Button
+                onClick={salvar}
+                variant="contained"
+                startIcon={<AddIcon />}
+              >
+                Adicionar
               </Button>
             </Grid>
           </Grid>
@@ -120,7 +118,7 @@ export default function FontSelector() {
             justifyContent="center"
             marginTop={2}
           >
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               <MostraNome
                 dados={{
                   principal: {

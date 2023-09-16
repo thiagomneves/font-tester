@@ -5,7 +5,8 @@ import { FontGroupData } from '../types/FontGroupData'
 import MostraNome from './mostraNome'
 
 export default function ListaSalvos() {
-  const { localStorageData } = useContext(LocalStorageContext)
+  const { localStorageData } =
+  useContext(LocalStorageContext)
 
   const dividirEmGrupos = (
     array: FontGroupData[],
@@ -21,7 +22,7 @@ export default function ListaSalvos() {
 
   return (
     <>
-      {localStorageData.dados.length && (
+      {!!localStorageData.dados?.length && (
         <section>
           <Typography variant="h4" align='center' marginTop={10}>
             LISTA SALVOS

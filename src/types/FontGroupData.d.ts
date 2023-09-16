@@ -1,4 +1,5 @@
 export interface FontGroupData {
+  id?: string
   principal: {
     nome: string
     fonte: string
