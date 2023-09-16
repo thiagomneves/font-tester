@@ -59,7 +59,7 @@ export default function FontSelector() {
 
   return (
     <>
-      <Card variant="elevation">
+      <Card variant="outlined">
         <FontSelectorContainer>
           <BlocoFonte
             label="Fonte Principal"
