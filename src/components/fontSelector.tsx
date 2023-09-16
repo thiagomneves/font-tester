@@ -1,39 +1,46 @@
 import fontes from '../json/fontes.json'
 import { useState } from 'react'
-import * as MostraNome from './mostraNome'
+import MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
 import { Button, Grid } from '@mui/material'
 import AddIcon from '@mui/icons-material/Add'
 import { ColorPicker } from 'material-ui-color'
 
 export default function FontSelector() {
-  const [nomePrincipal, setNomePrincipal] = useState<string>('unya')
-  const [nomeSecundario, setNomeSecundario] = useState<string>('tech')
+  const [nomePrincipal, setNomePrincipal] = useState<string>('nome')
+  const [nomeSecundario, setNomeSecundario] = useState<string>('')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
     useState<string>('cormorant')
   const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] =
     useState<string>('days-one')
-  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 })
-  const [isVisible, setIsVisible] = useState<boolean>(false)
   const [tamanhoPrincipal, setTamanhoPrincipal] = useState<number>(80)
   const [tamanhoSecundario, setTamanhoSecundario] = useState<number>(80)
 
-  const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>): void => {
-    const x = e.clientX
-    const y = e.clientY
-    setTooltipPosition({ x, y })
-    setIsVisible(true)
-  }
 
-  const handleMouseOut = (): void => {
-    setIsVisible(false)
-  }
 
   const salvar = (): void => {
-    console.log('clicou salvar')
+    const dados = {
+      principal: {
+        nome: nomePrincipal,
+        fonte: fonteSelecionadaPrincipal,
+        tamanho: tamanhoPrincipal,
+        cor: corPrincipal
+      },
+      secundario: {
+        nome: nomeSecundario,
+        fonte: fonteSelecionadaSecundaria,
+        tamanho: tamanhoSecundario,
+        cor: corSecundaria
+      },
+      fundo: {
+        cor: corFundo
+      }
+    }
+    console.log(dados)
+    console.log(dados.principal, dados.secundario, dados.fundo)
   }
 
-  const [corPrimaria, setCorPrimaria] = useState('#000')
+  const [corPrincipal, setCorPrincipal] = useState('#000')
   const [corSecundaria, setCorSecundaria] = useState('#000')
   const [corFundo, setCorFundo] = useState('#fff')
 
@@ -62,8 +69,8 @@ export default function FontSelector() {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={3}>
           <ColorPicker
-            value={corPrimaria}
-            onChange={(e) => setCorPrimaria(e.css.backgroundColor!)}
+            value={corPrincipal}
+            onChange={(e) => setCorPrincipal(e.css.backgroundColor!)}
           />
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
@@ -86,43 +93,23 @@ export default function FontSelector() {
         </Grid>
       </Grid>
 
-      <MostraNome.Div
-        onMouseOver={handleMouseOver}
-        onMouseOut={handleMouseOut}
-        $cor={corFundo}
-      >
-        {nomePrincipal.trim() || nomeSecundario.trim() ? (
-          <>
-            <MostraNome.Span
-              className={fonteSelecionadaPrincipal}
-              $tamanho={tamanhoPrincipal}
-              $cor={corPrimaria}
-            >
-              {nomePrincipal}
-            </MostraNome.Span>
-            <MostraNome.Span
-              className={fonteSelecionadaSecundaria}
-              $tamanho={tamanhoSecundario}
-              $cor={corSecundaria}
-            >
-              {nomeSecundario}
-            </MostraNome.Span>
-          </>
-        ) : (
-          <MostraNome.Span>&nbsp;</MostraNome.Span>
-        )}
-      </MostraNome.Div>
-      {isVisible && (
-        <MostraNome.Tooltip
-          style={{
-            position: 'absolute',
-            top: `${tooltipPosition.y + 10}px`, // Ajuste a posição vertical como desejar
-            left: `${tooltipPosition.x + 10}px`, // Ajuste a posição horizontal como desejar
-          }}
-        >
-          Conteúdo do Tooltip
-        </MostraNome.Tooltip>
-      )}
+      <MostraNome dados={{
+      principal: {
+        nome: nomePrincipal,
+        fonte: fonteSelecionadaPrincipal,
+        tamanho: tamanhoPrincipal,
+        cor: corPrincipal,
+      },
+      secundario: {
+        nome: nomeSecundario,
+        fonte: fonteSelecionadaSecundaria,
+        tamanho: tamanhoSecundario,
+        cor: corSecundaria
+      },
+      fundo: {
+        cor: corFundo
+      }
+    }}/>
     </section>
   )
 }
