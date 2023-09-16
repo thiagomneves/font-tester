@@ -27,10 +27,11 @@ export default function ListaSalvos() {
           <Typography variant="h4" align='center' marginTop={10}>
             LISTA SALVOS
           </Typography>
-          {grupos.map((grupo, indice) => (
-            <Grid container spacing={0} key={`grupo${indice}`}>
+          <Grid container spacing={0}>
+          {grupos.map((grupo) => (
+            <>
               {grupo.map((item, index) => (
-                <Grid item xs={4} key={`item${index}`}>
+                <Grid item xs={12} sm={6} md={4} xl={3} key={`item${index}`}>
                   <MostraNome
                     key={`${index}${item.principal.nome}${item.secundario.nome}`}
                     dados={item}
@@ -38,8 +39,9 @@ export default function ListaSalvos() {
                   />
                 </Grid>
               ))}
-            </Grid>
+            </>
           ))}
+          </Grid>
         </section>
       )}
     </>

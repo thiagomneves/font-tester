@@ -34,6 +34,10 @@ const MyTooltip = styled.div`
   background-color: #051e34;
 `
 
+const MuiTooltipContainer = styled.div`
+  position: relative;
+`
+
 interface MostraNomeProps {
   dados: FontGroupData
   estatico?: boolean
@@ -102,16 +106,23 @@ export default function MostraNome({
           <Span>&nbsp;</Span>
         )}
         {estatico && (
+          <MuiTooltipContainer>
           <Tooltip
             title="Apagar"
             onMouseOver={handleMouseOverClose}
             onMouseOut={handleMouseOutClose}
             onClick={() => apagar(dados.id!)}
+            style={{
+              position: 'absolute',
+              bottom: '0', // Defina a posição vertical desejada (0 para o canto superior)
+              right: '0', // Defina a posição horizontal desejada (0 para o canto direito)
+            }}
           >
             <IconButton>
               <CloseIcon />
             </IconButton>
           </Tooltip>
+          </MuiTooltipContainer>
         )}
       </MyPaper>
       {estatico && isVisible && (
