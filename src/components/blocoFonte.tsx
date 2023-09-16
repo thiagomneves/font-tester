@@ -34,6 +34,7 @@ export default function BlocoFonte({
   const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes)
   const [tipos, setTipos] = useState<string[]>([])
 
+  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     obtemFontesFiltradas()
   }, [tipoSelecionado])
@@ -41,6 +42,7 @@ export default function BlocoFonte({
   useEffect(() => {
     obtemTipos()
   }, [])
+  /* eslint-enable react-hooks/exhaustive-deps */
 
   function obtemTipos() {
     const tiposUnicos = new Set<string>()
@@ -57,6 +59,10 @@ export default function BlocoFonte({
         (fonte: Fonte) => fonte.tipo === tipoSelecionado
       )
       setFontesFiltradas([...novaFontes])
+      const estaNoGrupo = novaFontes.find(item => item.classe === fonteSelecionada)
+      if (!estaNoGrupo) {
+        setFonteSelecionada('')
+      }
     } else {
       setFontesFiltradas([...fontes])
     }
@@ -64,7 +70,6 @@ export default function BlocoFonte({
 
   function selecionaTipo(e: React.ChangeEvent<HTMLInputElement>) {
     setTipoSelecionado(e.target.value)
-    setFonteSelecionada('')
   }
 
   return (
