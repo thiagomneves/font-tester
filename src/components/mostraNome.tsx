@@ -1,10 +1,10 @@
-import { List, ListItemText, ListSubheader } from '@mui/material'
 import { useState } from 'react'
+import { Grid, ListItemText, ListSubheader, Paper } from '@mui/material'
 import styled from 'styled-components'
 import { FontGroupData } from '../types/FontGroupData'
 
-export const Div = styled.div<{ $cor: string }>`
-  margin: 40px;
+export const MyPaper = styled(Paper)<{ $cor: string }>`
+  margin: 10px;
   padding: 10px;
   text-align: center;
   border: 1px solid #ddd;
@@ -18,10 +18,11 @@ export const Span = styled.span<{ $tamanho?: number; $cor: string }>`
 
 export const Tooltip = styled.div`
   position: absolute;
-  color: #fff;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #333;
+  border: 1px solid #03121f;
+  color: #fff;
+  background-color: #051e34;
 `
 
 interface MostraNomeProps {
@@ -29,7 +30,10 @@ interface MostraNomeProps {
   estatico?: boolean
 }
 
-export default function MostraNome({ dados, estatico = false }: MostraNomeProps) {
+export default function MostraNome({
+  dados,
+  estatico = false,
+}: MostraNomeProps) {
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 })
   const [isVisible, setIsVisible] = useState<boolean>(false)
   const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>): void => {
@@ -44,7 +48,8 @@ export default function MostraNome({ dados, estatico = false }: MostraNomeProps)
   }
   return (
     <>
-      <Div
+      <MyPaper
+        elevation={3}
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
         $cor={dados.fundo.cor}
@@ -69,7 +74,7 @@ export default function MostraNome({ dados, estatico = false }: MostraNomeProps)
         ) : (
           <Span>&nbsp;</Span>
         )}
-      </Div>
+      </MyPaper>
       {estatico && isVisible && (
         <Tooltip
           style={{
@@ -78,29 +83,57 @@ export default function MostraNome({ dados, estatico = false }: MostraNomeProps)
             left: `${tooltipPosition.x + 10}px`, // Ajuste a posição horizontal como desejar
           }}
         >
-          <List>
-            <ListSubheader component="div" id="nested-list-subheader">
-              Fonte Principal:
-              <ListSubheader component="div" id="nested-list-subheader">
-                <ListItemText primary={`Nome: ${dados.principal.nome}`} />
-                <ListItemText primary={`Tamanho: ${dados.principal.tamanho}`} />
-                <ListItemText primary={`Cor: ${dados.principal.cor}`} />
+          <Grid container spacing={2}>
+            {dados.principal.nome.trim() && (
+              <ListSubheader
+                sx={{ bgcolor: 'inherit', color: 'inherit' }}
+                component="div"
+                id="nested-list-subheader"
+              >
+                Fonte Principal:
+                <ListSubheader
+                  sx={{ bgcolor: 'inherit', color: 'inherit' }}
+                  component="div"
+                  id="nested-list-subheader"
+                >
+                  <ListItemText primary={`Nome: ${dados.principal.nome}`} />
+                  <ListItemText
+                    primary={`Tamanho: ${dados.principal.tamanho}`}
+                  />
+                  <ListItemText primary={`Cor: ${dados.principal.cor}`} />
+                </ListSubheader>
               </ListSubheader>
-            </ListSubheader>
+            )}
 
-            <ListSubheader component="div" id="nested-list-subheader">
-              Fonte Secundario:
-              <ListSubheader component="div" id="nested-list-subheader">
-                <ListItemText primary={`Nome: ${dados.secundario.nome}`} />
-                <ListItemText primary={`Tamanho: ${dados.secundario.tamanho}`} />
-                <ListItemText primary={`Cor: ${dados.secundario.cor}`} />
+            {dados.secundario.nome.trim() && (
+              <ListSubheader
+                sx={{ bgcolor: 'inherit', color: 'inherit' }}
+                component="div"
+                id="nested-list-subheader"
+              >
+                Fonte Secundario:
+                <ListSubheader
+                  sx={{ bgcolor: 'inherit', color: 'inherit' }}
+                  component="div"
+                  id="nested-list-subheader"
+                >
+                  <ListItemText primary={`Nome: ${dados.secundario.nome}`} />
+                  <ListItemText
+                    primary={`Tamanho: ${dados.secundario.tamanho}`}
+                  />
+                  <ListItemText primary={`Cor: ${dados.secundario.cor}`} />
+                </ListSubheader>
               </ListSubheader>
-            </ListSubheader>
+            )}
 
-            <ListSubheader component="div" id="nested-list-subheader">
+            <ListSubheader
+              sx={{ bgcolor: 'inherit', color: 'inherit' }}
+              component="div"
+              id="nested-list-subheader"
+            >
               Fundo: {dados.fundo.cor}
             </ListSubheader>
-          </List>
+          </Grid>
         </Tooltip>
       )}
     </>
