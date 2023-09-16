@@ -1,17 +1,22 @@
 import fontes from '../json/fontes.json'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import * as MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
+import { Button } from '@mui/material'
+import AddIcon from '@mui/icons-material/Add'
+import FontSizeAjuster from '../utils/fontSizeAjuster'
 
 export default function FontSelector() {
-  const [nomePrincipal, setNomePrincipal] = useState<string>('')
-  const [nomeSecundario, setNomeSecundario] = useState<string>('')
+  const [nomePrincipal, setNomePrincipal] = useState<string>('unya')
+  const [nomeSecundario, setNomeSecundario] = useState<string>('tech')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
-    useState<string>('')
+    useState<string>('cormorant')
   const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] =
-    useState<string>('')
+    useState<string>('days-one')
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 })
   const [isVisible, setIsVisible] = useState<boolean>(false)
+  const [tamanhoPrincipal, setTamanhoPrincipal] = useState<number>(80)
+  const [tamanhoSecundario, setTamanhoSecundario] = useState<number>(80)
 
   const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>): void => {
     const x = e.clientX
@@ -24,6 +29,10 @@ export default function FontSelector() {
     setIsVisible(false)
   }
 
+  const salvar = (): void => {
+    console.log('clicou salvar')
+  }
+
   return (
     <section>
       <BlocoFonte
@@ -33,6 +42,8 @@ export default function FontSelector() {
         setFonteSelecionada={setFonteSelecionadaPrincipal}
         nome={nomePrincipal}
         setNome={setNomePrincipal}
+        tamanho={tamanhoPrincipal}
+        setTamanho={setTamanhoPrincipal}
       />
       <BlocoFonte
         label="Fonte Secundaria"
@@ -41,15 +52,21 @@ export default function FontSelector() {
         setFonteSelecionada={setFonteSelecionadaSecundaria}
         nome={nomeSecundario}
         setNome={setNomeSecundario}
+        tamanho={tamanhoSecundario}
+        setTamanho={setTamanhoSecundario}
       />
+      <Button onClick={salvar} variant="contained">
+        <AddIcon />
+        &nbsp;Adicionar
+      </Button>
 
       <MostraNome.Div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
         {nomePrincipal.trim() || nomeSecundario.trim() ? (
           <>
-            <MostraNome.Span className={fonteSelecionadaPrincipal}>
+            <MostraNome.Span className={fonteSelecionadaPrincipal} tamanho={tamanhoPrincipal}>
               {nomePrincipal}
             </MostraNome.Span>
-            <MostraNome.Span className={fonteSelecionadaSecundaria}>
+            <MostraNome.Span className={fonteSelecionadaSecundaria} tamanho={tamanhoSecundario}>
               {nomeSecundario}
             </MostraNome.Span>
           </>

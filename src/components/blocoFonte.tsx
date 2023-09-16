@@ -15,6 +15,8 @@ interface Props {
   variant?: 'standard' | 'outlined' | 'filled'
   nome: string
   setNome: React.Dispatch<React.SetStateAction<string>>
+  tamanho: number
+  setTamanho: React.Dispatch<React.SetStateAction<number>>
 }
 
 export default function BlocoFonte({
@@ -25,6 +27,8 @@ export default function BlocoFonte({
   variant = 'outlined',
   nome,
   setNome,
+  tamanho,
+  setTamanho
 }: Props) {
   const [tipoSelecionado, setTipoSelecionado] = useState<string>('')
   const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes)
@@ -41,11 +45,14 @@ export default function BlocoFonte({
   function obtemTipos() {
     const tiposUnicos = new Set<string>()
     fontes.forEach((fonte: Fonte) => tiposUnicos.add(fonte.tipo))
-    setTipos(['', ...tiposUnicos])
+    setTipos(['todos', ...tiposUnicos])
+    if (!tipoSelecionado.trim()) {
+      setTipoSelecionado('todos')
+    }
   }
 
   function obtemFontesFiltradas() {
-    if (tipoSelecionado.trim()) {
+    if (tipoSelecionado.trim() && tipoSelecionado.trim() != 'todos') {
       const novaFontes = fontes.filter(
         (fonte: Fonte) => fonte.tipo === tipoSelecionado
       )
@@ -66,17 +73,17 @@ export default function BlocoFonte({
         {label}
       </Typography>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
           <TextField
             id="nome"
             defaultValue={nome}
-            onChange={(e) => setNome(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNome(e.target.value)}
             label="Nome"
             variant={variant}
             fullWidth
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
           <TextField
             id="fonte"
             select
@@ -94,24 +101,36 @@ export default function BlocoFonte({
             ))}
           </TextField>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
           <TextField
             id="tipo"
+            label="Tipo"
             select
-            defaultValue=""
             value={tipoSelecionado}
             helperText="Filtrar por tipo"
-            label="Tipo"
             variant={variant}
             onChange={selecionaTipo}
             fullWidth
+
           >
             {tipos.map((tipo) => (
               <MenuItem key={tipo} value={tipo}>
-                {tipo === '' ? 'Todos...' : tipo}
+                {tipo === 'todos' ? 'Todos...' : tipo}
               </MenuItem>
             ))}
           </TextField>
+        </Grid>
+        <Grid item xs={12} sm={6} md={2}>
+          <TextField
+            id="outlined-number"
+            label="Tamanho"
+            type="number"
+            value={tamanho.toString()}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTamanho(parseInt(e.target.value))}
+            InputLabelProps={{
+              shrink: true,
+            }}
+          />
         </Grid>
       </Grid>
     </>

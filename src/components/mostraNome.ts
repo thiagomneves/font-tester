@@ -2,12 +2,14 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
   margin: 40px;
+  padding: 10px;
   text-align: center;
-  background-color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 `
 
 export const Span = styled.span`
-  font-size: 3rem;
+  font-size: ${props => props.tamanho}px;
 `
 
 export const Tooltip = styled.div`
