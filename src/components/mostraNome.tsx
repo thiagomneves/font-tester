@@ -1,6 +1,7 @@
 import { List, ListItemText, ListSubheader } from '@mui/material'
 import { useState } from 'react'
 import styled from 'styled-components'
+import { FontGroupData } from '../types/FontGroupData'
 
 export const Div = styled.div<{ $cor: string }>`
   margin: 40px;
@@ -24,23 +25,8 @@ export const Tooltip = styled.div`
 `
 
 interface MostraNomeProps {
-  dados: {
-    principal: {
-      nome: string
-      fonte: string
-      tamanho: number
-      cor: string
-    }
-    secundario: {
-      nome: string
-      fonte: string
-      tamanho: number
-      cor: string
-    }
-    fundo: {
-      cor: string
-    }
-  }
+  dados: FontGroupData
+  estatico?: boolean
 }
 
 export default function MostraNome({ dados, estatico = false }: MostraNomeProps) {

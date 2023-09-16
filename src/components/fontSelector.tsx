@@ -1,12 +1,19 @@
+import { useContext, useState } from 'react'
 import fontes from '../json/fontes.json'
-import { useState } from 'react'
+import { useLocalStorageArray } from '../hooks/useLocalStorage'
+import { LocalStorageContext } from '../contexts/LocalStorageContext'
 import MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
 import { Button, Grid } from '@mui/material'
 import AddIcon from '@mui/icons-material/Add'
 import { ColorPicker } from 'material-ui-color'
+import { FontGroupData } from '../types/FontGroupData'
+import { FontTesterData } from '../types/FontTesterData'
 
 export default function FontSelector() {
+  const {localStorageData, setLocalStorageData} = useContext(LocalStorageContext);
+  const [data, setData] = useLocalStorageArray(localStorageData);
+
   const [nomePrincipal, setNomePrincipal] = useState<string>('nome')
   const [nomeSecundario, setNomeSecundario] = useState<string>('')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
@@ -16,29 +23,35 @@ export default function FontSelector() {
   const [tamanhoPrincipal, setTamanhoPrincipal] = useState<number>(80)
   const [tamanhoSecundario, setTamanhoSecundario] = useState<number>(80)
 
-
-
   const salvar = (): void => {
-    const dados = {
+    const novosDados: FontGroupData = {
       principal: {
         nome: nomePrincipal,
         fonte: fonteSelecionadaPrincipal,
         tamanho: tamanhoPrincipal,
-        cor: corPrincipal
+        cor: corPrincipal,
       },
       secundario: {
         nome: nomeSecundario,
         fonte: fonteSelecionadaSecundaria,
         tamanho: tamanhoSecundario,
-        cor: corSecundaria
+        cor: corSecundaria,
       },
       fundo: {
-        cor: corFundo
-      }
+        cor: corFundo,
+      },
     }
-    console.log(dados)
-    console.log(dados.principal, dados.secundario, dados.fundo)
+    setData({
+      ...data,
+      dados: [...data.dados, novosDados],
+    })
+
+    setLocalStorageData({
+      ...localStorageData,
+      dados: [...localStorageData.dados, novosDados],
+    })
   }
+  
 
   const [corPrincipal, setCorPrincipal] = useState('#000')
   const [corSecundaria, setCorSecundaria] = useState('#000')
@@ -93,23 +106,25 @@ export default function FontSelector() {
         </Grid>
       </Grid>
 
-      <MostraNome dados={{
-      principal: {
-        nome: nomePrincipal,
-        fonte: fonteSelecionadaPrincipal,
-        tamanho: tamanhoPrincipal,
-        cor: corPrincipal,
-      },
-      secundario: {
-        nome: nomeSecundario,
-        fonte: fonteSelecionadaSecundaria,
-        tamanho: tamanhoSecundario,
-        cor: corSecundaria
-      },
-      fundo: {
-        cor: corFundo
-      }
-    }}/>
+      <MostraNome
+        dados={{
+          principal: {
+            nome: nomePrincipal,
+            fonte: fonteSelecionadaPrincipal,
+            tamanho: tamanhoPrincipal,
+            cor: corPrincipal,
+          },
+          secundario: {
+            nome: nomeSecundario,
+            fonte: fonteSelecionadaSecundaria,
+            tamanho: tamanhoSecundario,
+            cor: corSecundaria,
+          },
+          fundo: {
+            cor: corFundo,
+          },
+        }}
+      />
     </section>
   )
 }
