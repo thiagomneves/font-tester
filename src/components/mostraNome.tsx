@@ -18,7 +18,9 @@ const MyPaper = styled(Paper)<{ $cor: string }>`
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: ${(props) => props.$cor};
+  && {
+    background-color: ${(props) => props.$cor};
+  }
 `
 const Span = styled.span<{ $tamanho?: number; $cor?: string }>`
   font-size: ${(props) => props.$tamanho}px;
