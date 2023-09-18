@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useRef, useState } from 'react'
 import {
   Grid,
   IconButton,
@@ -22,10 +22,15 @@ const MyPaper = styled(Paper)<{ $cor: string }>`
     background-color: ${(props) => props.$cor};
   }
 `
-const Span = styled.span<{ $tamanho?: number; $cor?: string, $weight?: number, $italic?: boolean }>`
+const Span = styled.span<{
+  $tamanho?: number
+  $cor?: string
+  $weight?: number
+  $italic?: boolean
+}>`
   font-size: ${(props) => props.$tamanho}px;
   font-weight: ${(props) => props.$weight};
-  font-style: ${(props) => props.$italic ? 'italic' : 'normal'};
+  font-style: ${(props) => (props.$italic ? 'italic' : 'normal')};
   color: ${(props) => props.$cor};
 `
 
@@ -52,15 +57,48 @@ export default function MostraNome({
   estatico = false,
 }: MostraNomeProps) {
   const { removeItemById } = useContext(LocalStorageContext)
-  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 })
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 })
   const [isVisible, setIsVisible] = useState<boolean>(false)
-  const [isMouseOverCLose, setIsMouseOverClose] = useState<boolean>(false)
+  const [isMouseOverClose, setIsMouseOverClose] = useState<boolean>(false)
+  const tooltipRef = useRef<HTMLDivElement | null>(null)
 
   const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>): void => {
-    if (!isMouseOverCLose) {
+    if (!isMouseOverClose) {
       const x = e.clientX
       const y = e.clientY
-      setTooltipPosition({ x, y })
+
+      // Obtém as dimensões da viewport
+      const viewportWidth =
+        window.innerWidth || document.documentElement.clientWidth
+      const viewportHeight =
+        window.innerHeight || document.documentElement.clientHeight
+
+      // Obtém as dimensões da tooltip
+      const tooltipWidth = tooltipRef.current
+        ? tooltipRef.current.offsetWidth
+        : 0
+      const tooltipHeight = tooltipRef.current
+        ? tooltipRef.current.offsetHeight
+        : 0
+
+      // Define uma margem de segurança para garantir que o tooltip não ultrapasse os limites da viewport
+      const margin = 10
+
+      // Calcula a posição horizontal ideal
+      let tooltipLeft = x + margin
+      if (x + tooltipWidth + margin > viewportWidth) {
+        tooltipLeft = viewportWidth - tooltipWidth - margin
+      }
+
+      // Calcula a posição vertical ideal
+      let tooltipTop = y + margin
+      if (y + tooltipHeight + margin > viewportHeight) {
+        tooltipTop = viewportHeight - tooltipHeight - margin
+      }
+
+      const tooltipPosition = { left: tooltipLeft, top: tooltipTop }
+
+      setTooltipPosition(tooltipPosition)
       setIsVisible(true)
     }
   }
@@ -135,10 +173,11 @@ export default function MostraNome({
       </MyPaper>
       {estatico && isVisible && (
         <MyTooltip
+          ref={tooltipRef}
           style={{
             position: 'absolute',
-            top: `${tooltipPosition.y + 10}px`, // Ajuste a posição vertical como desejar
-            left: `${tooltipPosition.x + 10}px`, // Ajuste a posição horizontal como desejar
+            top: `${tooltipPosition.top}px`,
+            left: `${tooltipPosition.left}px`,
           }}
         >
           <Grid container spacing={2}>
@@ -158,9 +197,18 @@ export default function MostraNome({
                   <ListItemText
                     primary={`Tamanho: ${dados.principal.tamanho}`}
                   />
+                  <ListItemText
+                    primary={`Familia: ${dados.principal.fonte.nome}`}
+                  />
                   <ListItemText primary={`Cor: ${dados.principal.cor}`} />
-                  <ListItemText primary={`Espessura: ${dados.principal.variante.weight}`} />
-                  <ListItemText primary={`Estilo: ${dados.principal.variante.italic ? 'Italic' : 'Normal'}`} />
+                  <ListItemText
+                    primary={`Espessura: ${dados.principal.variante.weight}`}
+                  />
+                  <ListItemText
+                    primary={`Estilo: ${
+                      dados.principal.variante.italic ? 'Italic' : 'Normal'
+                    }`}
+                  />
                 </ListSubheader>
               </ListSubheader>
             )}
@@ -181,9 +229,18 @@ export default function MostraNome({
                   <ListItemText
                     primary={`Tamanho: ${dados.secundario.tamanho}`}
                   />
+                  <ListItemText
+                    primary={`Familia: ${dados.secundario.fonte.nome}`}
+                  />
                   <ListItemText primary={`Cor: ${dados.secundario.cor}`} />
-                  <ListItemText primary={`Espessura: ${dados.secundario.variante.weight}`} />
-                  <ListItemText primary={`Estilo: ${dados.secundario.variante.italic ? 'Italic' : 'Normal'}`} />
+                  <ListItemText
+                    primary={`Espessura: ${dados.secundario.variante.weight}`}
+                  />
+                  <ListItemText
+                    primary={`Estilo: ${
+                      dados.secundario.variante.italic ? 'Italic' : 'Normal'
+                    }`}
+                  />
                 </ListSubheader>
               </ListSubheader>
             )}
