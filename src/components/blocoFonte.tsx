@@ -86,15 +86,16 @@ export default function BlocoFonte({
     }`
   }
 
-  const handleSelecionaVariante = (
-    _e: MouseEvent,
-    id: number
-  ) => {
-    const varianteSelecionada = fonteSelecionada.variantes.find((v) => v.id === id)
+  const handleSelecionaVariante = (_e: MouseEvent, id: number) => {
+    const varianteSelecionada = fonteSelecionada.variantes.find(
+      (v) => v.id === id
+    )
     setFonteVariante(varianteSelecionada)
   }
 
-  const handleSelecionaFonte = (e: React.ChangeEvent<HTMLInputElement>): void => {
+  const handleSelecionaFonte = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ): void => {
     const novaFonte = getFontByClass(e.target.value)
     setFonteSelecionada(novaFonte)
     setFonteVariante(varianteInicial(novaFonte))
@@ -116,7 +117,9 @@ export default function BlocoFonte({
             <MenuItem
               key={`${form} ${variante.id}`}
               value={obtemLabelVariante(variante)}
-              onClick={(event: MouseEvent) => handleSelecionaVariante(event, variante.id)}
+              onClick={(event: MouseEvent) =>
+                handleSelecionaVariante(event, variante.id)
+              }
             >
               {obtemLabelVariante(variante)}
             </MenuItem>
@@ -196,7 +199,9 @@ export default function BlocoFonte({
           />
         </Grid>
         <Grid item xs={12} sm={6} md={2}>
-          {Object.keys(fonteSelecionada.variantes).length && <RenderVariantes />}
+          {Object.keys(fonteSelecionada.variantes).length && (
+            <RenderVariantes />
+          )}
         </Grid>
       </Grid>
     </>

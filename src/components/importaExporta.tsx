@@ -18,20 +18,21 @@ export default function ImportaExporta() {
     if (file) {
       if (file.type === 'application/json' || file.name.endsWith('.json')) {
         try {
-          const res = await importDataFromJSONFileHelper(file);
+          const res = await importDataFromJSONFileHelper(file)
           if (res.status) {
-            setLocalStorageData(JSON.parse(res.json)) 
+            setLocalStorageData(JSON.parse(res.json))
           }
         } catch (error) {
-          console.error('Erro geral durante a importação:', error);
+          console.error('Erro geral durante a importação:', error)
         }
       } else {
-        alert('O arquivo não está no formato JSON. Selecione um arquivo JSON válido.');
+        alert(
+          'O arquivo não está no formato JSON. Selecione um arquivo JSON válido.'
+        )
       }
     }
   }
-  
-  
+
   const handleExportar = () => {
     exportDataToJSONFile()
   }
