@@ -1,3 +1,5 @@
+import { Variante } from "./Fonte"
+
 export interface FontGroupData {
   id?: string
   principal: {
@@ -5,12 +7,14 @@ export interface FontGroupData {
     fonte: string
     tamanho: number
     cor: string
+    variante: Variante
   }
   secundario: {
     nome: string
     fonte: string
     tamanho: number
     cor: string
+    variante: Variante
   }
   fundo: {
     cor: string

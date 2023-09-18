@@ -10,6 +10,7 @@ import { LocalStorageContext } from '../contexts/LocalStorageContext'
 import MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
 import { FontGroupData } from '../types/FontGroupData'
+import { Variante } from '../types/Fonte'
 
 const FontSelectorContainer = styled.div`
   padding: 30px;
@@ -21,11 +22,13 @@ export default function FontSelector() {
   const [nomePrincipal, setNomePrincipal] = useState<string>('nome')
   const [nomeSecundario, setNomeSecundario] = useState<string>('')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
-    useState<string>('allerta')
+    useState<string>('nunito')
   const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] =
     useState<string>('days-one')
   const [tamanhoPrincipal, setTamanhoPrincipal] = useState<number>(30)
   const [tamanhoSecundario, setTamanhoSecundario] = useState<number>(30)
+  const [variantePrincipal, setVariantePrincipal] = useState<Variante>({} as Variante)
+  const [varianteSecundaria, setVarianteSecundaria] = useState<Variante>({} as Variante)
 
   const salvar = (): void => {
     const novosDados: FontGroupData = {
@@ -35,12 +38,14 @@ export default function FontSelector() {
         fonte: fonteSelecionadaPrincipal,
         tamanho: tamanhoPrincipal,
         cor: corPrincipal,
+        variante: variantePrincipal
       },
       secundario: {
         nome: nomeSecundario,
         fonte: fonteSelecionadaSecundaria,
         tamanho: tamanhoSecundario,
         cor: corSecundaria,
+        variante: varianteSecundaria
       },
       fundo: {
         cor: corFundo,
@@ -70,6 +75,9 @@ export default function FontSelector() {
             setNome={setNomePrincipal}
             tamanho={tamanhoPrincipal}
             setTamanho={setTamanhoPrincipal}
+            fonteVariante={variantePrincipal}
+            setFonteVariante={setVariantePrincipal}
+            form='principal'
           />
           <BlocoFonte
             label="Fonte Secundaria"
@@ -80,6 +88,9 @@ export default function FontSelector() {
             setNome={setNomeSecundario}
             tamanho={tamanhoSecundario}
             setTamanho={setTamanhoSecundario}
+            fonteVariante={varianteSecundaria}
+            setFonteVariante={setVarianteSecundaria}
+            form='secundario'
           />
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={3}>
@@ -126,12 +137,14 @@ export default function FontSelector() {
                     fonte: fonteSelecionadaPrincipal,
                     tamanho: tamanhoPrincipal,
                     cor: corPrincipal,
+                    variante: variantePrincipal
                   },
                   secundario: {
                     nome: nomeSecundario,
                     fonte: fonteSelecionadaSecundaria,
                     tamanho: tamanhoSecundario,
                     cor: corSecundaria,
+                    variante: varianteSecundaria
                   },
                   fundo: {
                     cor: corFundo,

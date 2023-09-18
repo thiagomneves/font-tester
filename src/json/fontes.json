@@ -8,7 +8,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -21,62 +22,74 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 250,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 250,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 900,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 900,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 12
       }
     ]
   },
@@ -89,92 +102,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium Italic",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black Italic",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -186,7 +217,8 @@
     "variantes": [
       {
         "weight": 400,
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -199,22 +231,26 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       }
     ]
   },
@@ -227,12 +263,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       }
     ]
   },
@@ -244,7 +282,8 @@
     "variantes": [
       {
         "weight": 400,
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -256,92 +295,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ],
     "classe": "archivo"
@@ -354,17 +411,20 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 3
       }
     ],
     "classe": "arial"
@@ -377,7 +437,8 @@
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "arial-black"
@@ -390,7 +451,8 @@
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "arial-ce"
@@ -403,7 +465,8 @@
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "arial-ce-mt-black"
@@ -416,7 +479,8 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "arial-light"
@@ -429,7 +493,8 @@
     "variantes": [
       {
         "weight": 400,
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -441,7 +506,8 @@
     "variantes": [
       {
         "weight": 400,
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -454,62 +520,74 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 600,
         "description": "SemiBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 800,
         "description": "ExtraBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 900,
         "description": "Black Italic",
-        "italic": true
+        "italic": true,
+        "id": 12
       }
     ]
   },
@@ -522,12 +600,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       }
     ]
   },
@@ -539,7 +619,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "audiowide"
@@ -553,7 +634,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -565,92 +647,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ],
     "classe": "barlow"
@@ -664,7 +764,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -677,92 +778,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -775,7 +894,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -788,22 +908,26 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 4
       }
     ]
   },
@@ -816,7 +940,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -829,17 +954,20 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       }
     ]
   },
@@ -851,7 +979,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "berkshire-swash"
@@ -865,42 +994,50 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 8
       }
     ]
   },
@@ -913,7 +1050,8 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -926,7 +1064,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -939,42 +1078,50 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 8
       }
     ]
   },
@@ -987,12 +1134,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       }
     ]
   },
@@ -1005,62 +1154,74 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 250,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 250,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 900,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 900,
         "description": "Italic",
-        "italic": true
+        "italic": true,
+        "id": 12
       }
     ]
   },
@@ -1073,17 +1234,20 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 3
       }
     ]
   },
@@ -1096,7 +1260,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1109,52 +1274,62 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 10
       }
     ]
   },
@@ -1167,12 +1342,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 2
       }
     ]
   },
@@ -1185,7 +1362,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1198,37 +1376,44 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       }
     ]
   },
@@ -1241,47 +1426,56 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 8
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 9
       }
     ]
   },
@@ -1294,92 +1488,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium Italic",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black Italic",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -1392,42 +1604,50 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 600,
         "description": "SemiBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       }
     ]
   },
@@ -1440,92 +1660,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -1538,7 +1776,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1551,7 +1790,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1564,102 +1804,122 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 650,
         "description": "650",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 650,
         "description": "650",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 14
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 15
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 750,
         "description": "750",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 750,
         "description": "750",
-        "italic": false
+        "italic": false,
+        "id": 18
       },
       {
         "weight": 750,
         "description": "750",
-        "italic": true
+        "italic": true,
+        "id": 19
       },
       {
         "weight": 750,
         "description": "750",
-        "italic": true
+        "italic": true,
+        "id": 20
       }
     ]
   },
@@ -1672,77 +1932,92 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 11
       },
       {
         "weight": 800,
         "description": "800",
-        "italic": false
+        "italic": false,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "800",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 900,
         "description": "900",
-        "italic": false
+        "italic": false,
+        "id": 14
       },
       {
         "weight": 900,
         "description": "900",
-        "italic": false
+        "italic": false,
+        "id": 15
       }
     ]
   },
@@ -1755,7 +2030,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1768,22 +2044,26 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       }
     ]
   },
@@ -1796,27 +2076,32 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       }
     ]
   },
@@ -1828,7 +2113,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "homenaje"
@@ -1842,7 +2128,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1855,42 +2142,50 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 8
       }
     ]
   },
@@ -1903,12 +2198,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       }
     ]
   },
@@ -1921,7 +2218,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -1934,72 +2232,86 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       }
     ]
   },
@@ -2012,7 +2324,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2025,27 +2338,32 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       }
     ]
   },
@@ -2058,92 +2376,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -2156,72 +2492,86 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       }
     ]
   },
@@ -2234,27 +2584,32 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       }
     ]
   },
@@ -2267,7 +2622,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2280,7 +2636,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2293,52 +2650,62 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 10
       }
     ]
   },
@@ -2351,7 +2718,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2364,42 +2732,50 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 8
       }
     ]
   },
@@ -2412,7 +2788,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2425,22 +2802,26 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 4
       }
     ]
   },
@@ -2453,7 +2834,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2465,7 +2847,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "molle"
@@ -2478,7 +2861,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "monaco"
@@ -2492,92 +2876,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -2590,92 +2992,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -2687,92 +3107,110 @@
       {
         "weight": 100,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 1000,
         "description": "Weight: 1000",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 1000,
         "description": "Weight: 1000",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ],
     "classe": "mulish"
@@ -2786,17 +3224,20 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 3
       }
     ]
   },
@@ -2809,7 +3250,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -2822,12 +3264,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       }
     ]
   },
@@ -2840,12 +3284,14 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 2
       }
     ]
   },
@@ -2858,92 +3304,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -2956,87 +3420,104 @@
       {
         "weight": 100,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 1000,
         "description": "Weight: 1000",
-        "italic": true
+        "italic": true,
+        "id": 17
       }
     ]
   },
@@ -3049,62 +3530,74 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       }
     ]
   },
@@ -3117,32 +3610,38 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 6
       }
     ]
   },
@@ -3155,17 +3654,20 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       }
     ]
   },
@@ -3178,7 +3680,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3191,7 +3694,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3204,7 +3708,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3217,92 +3722,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -3315,7 +3838,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3327,7 +3851,8 @@
       {
         "weight": 700,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ],
     "classe": "prosto-sans"
@@ -3340,72 +3865,86 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 250,
         "description": "250",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 250,
         "description": "250",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "300",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "300",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "600",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "600",
-        "italic": false
+        "italic": false,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "700",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "700",
-        "italic": false
+        "italic": false,
+        "id": 10
       },
       {
         "weight": 800,
         "description": "800",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 800,
         "description": "800",
-        "italic": false
+        "italic": false,
+        "id": 12
       },
       {
         "weight": 900,
         "description": "900",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 900,
         "description": "900",
-        "italic": false
+        "italic": false,
+        "id": 14
       }
     ],
     "classe": "proxima-nova-condensed"
@@ -3418,72 +3957,86 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 250,
         "description": "250",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 250,
         "description": "250",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "300",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "300",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "600",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "600",
-        "italic": false
+        "italic": false,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "700",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "700",
-        "italic": false
+        "italic": false,
+        "id": 10
       },
       {
         "weight": 800,
         "description": "800",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 800,
         "description": "800",
-        "italic": false
+        "italic": false,
+        "id": 12
       },
       {
         "weight": 900,
         "description": "900",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 900,
         "description": "900",
-        "italic": false
+        "italic": false,
+        "id": 14
       }
     ],
     "classe": "proxima-nova-extra-condensed"
@@ -3497,22 +4050,26 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 4
       }
     ]
   },
@@ -3525,7 +4082,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3538,27 +4096,32 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       }
     ]
   },
@@ -3571,27 +4134,32 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       }
     ]
   },
@@ -3604,7 +4172,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3617,92 +4186,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -3715,52 +4302,62 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 10
       }
     ]
   },
@@ -3773,62 +4370,74 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 12
       }
     ]
   },
@@ -3841,7 +4450,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3854,12 +4464,14 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       }
     ]
   },
@@ -3872,37 +4484,44 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 6
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 7
       }
     ]
   },
@@ -3915,7 +4534,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3928,22 +4548,26 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 4
       }
     ]
   },
@@ -3956,7 +4580,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3969,7 +4594,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -3982,82 +4608,98 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 16
       }
     ]
   },
@@ -4070,82 +4712,98 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 16
       }
     ]
   },
@@ -4158,7 +4816,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -4171,72 +4830,86 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       }
     ]
   },
@@ -4249,72 +4922,86 @@
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 14
       }
     ]
   },
@@ -4327,7 +5014,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -4339,17 +5027,20 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 3
       }
     ],
     "classe": "sulphur-point"
@@ -4363,27 +5054,32 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 2
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 4
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 5
       }
     ]
   },
@@ -4396,7 +5092,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -4409,42 +5106,50 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 8
       }
     ]
   },
@@ -4457,7 +5162,8 @@
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 1
       }
     ]
   },
@@ -4470,92 +5176,110 @@
       {
         "weight": 100,
         "description": "Thin",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 100,
         "description": "Thin",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 200,
         "description": "ExtraLight",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 10
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 11
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 12
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 13
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 14
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": false
+        "italic": false,
+        "id": 15
       },
       {
         "weight": 800,
         "description": "ExtraBold",
-        "italic": true
+        "italic": true,
+        "id": 16
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": false
+        "italic": false,
+        "id": 17
       },
       {
         "weight": 900,
         "description": "Black",
-        "italic": true
+        "italic": true,
+        "id": 18
       }
     ]
   },
@@ -4568,52 +5292,62 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": true
+        "italic": true,
+        "id": 10
       }
     ]
   },
@@ -4626,52 +5360,62 @@
       {
         "weight": 300,
         "description": "Light",
-        "italic": false
+        "italic": false,
+        "id": 1
       },
       {
         "weight": 300,
         "description": "Light Italic",
-        "italic": true
+        "italic": true,
+        "id": 2
       },
       {
         "weight": 400,
         "description": "Regular",
-        "italic": false
+        "italic": false,
+        "id": 3
       },
       {
         "weight": 400,
         "description": "Regular Italic",
-        "italic": true
+        "italic": true,
+        "id": 4
       },
       {
         "weight": 500,
         "description": "Medium",
-        "italic": false
+        "italic": false,
+        "id": 5
       },
       {
         "weight": 500,
         "description": "Medium Italic",
-        "italic": true
+        "italic": true,
+        "id": 6
       },
       {
         "weight": 600,
         "description": "SemiBold",
-        "italic": false
+        "italic": false,
+        "id": 7
       },
       {
         "weight": 600,
         "description": "SemiBold Italic",
-        "italic": true
+        "italic": true,
+        "id": 8
       },
       {
         "weight": 700,
         "description": "Bold",
-        "italic": false
+        "italic": false,
+        "id": 9
       },
       {
         "weight": 700,
         "description": "Bold Italic",
-        "italic": true
+        "italic": true,
+        "id": 10
       }
     ]
   }

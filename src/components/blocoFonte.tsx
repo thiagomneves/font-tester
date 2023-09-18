@@ -1,11 +1,6 @@
 import { Grid, MenuItem, TextField, Typography } from '@mui/material'
-import { useEffect, useState } from 'react'
-
-interface Fonte {
-  nome: string
-  tipo: string
-  classe: string
-}
+import { MouseEvent, useEffect, useState } from 'react'
+import { Fonte, Variante } from '../types/Fonte'
 
 interface Props {
   label: string
@@ -17,6 +12,9 @@ interface Props {
   setNome: React.Dispatch<React.SetStateAction<string>>
   tamanho: number
   setTamanho: React.Dispatch<React.SetStateAction<number>>
+  fonteVariante: Variante
+  setFonteVariante: React.Dispatch<React.SetStateAction<Variante>>
+  form: string
 }
 
 export default function BlocoFonte({
@@ -28,13 +26,21 @@ export default function BlocoFonte({
   nome,
   setNome,
   tamanho,
-  setTamanho
+  setTamanho,
+  fonteVariante,
+  setFonteVariante,
+  form,
 }: Props) {
   const [tipoSelecionado, setTipoSelecionado] = useState<string>('')
   const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes)
   const [tipos, setTipos] = useState<string[]>([])
+  const [variantes, setVariantes] = useState<Variante[]>([])
 
   /* eslint-disable react-hooks/exhaustive-deps */
+  useEffect(() => {
+    obtemVariantes()
+  }, [fonteSelecionada])
+
   useEffect(() => {
     obtemFontesFiltradas()
   }, [tipoSelecionado])
@@ -44,7 +50,15 @@ export default function BlocoFonte({
   }, [])
   /* eslint-enable react-hooks/exhaustive-deps */
 
-  function obtemTipos() {
+  function obtemVariantes() {
+    const fonte: Fonte = fontes.find(
+      (item) => item.classe === fonteSelecionada
+    )!
+    const variantesArray = fonte.variantes
+    setVariantes(variantesArray)
+  }
+
+  function obtemTipos(): void {
     const tiposUnicos = new Set<string>()
     fontes.forEach((fonte: Fonte) => tiposUnicos.add(fonte.tipo))
     setTipos(['todos', ...tiposUnicos])
@@ -53,13 +67,15 @@ export default function BlocoFonte({
     }
   }
 
-  function obtemFontesFiltradas() {
+  function obtemFontesFiltradas(): void {
     if (tipoSelecionado.trim() && tipoSelecionado.trim() != 'todos') {
       const novaFontes = fontes.filter(
         (fonte: Fonte) => fonte.tipo === tipoSelecionado
       )
       setFontesFiltradas([...novaFontes])
-      const estaNoGrupo = novaFontes.find(item => item.classe === fonteSelecionada)
+      const estaNoGrupo = novaFontes.find(
+        (item) => item.classe === fonteSelecionada
+      )
       if (!estaNoGrupo) {
         setFonteSelecionada('')
       }
@@ -68,8 +84,69 @@ export default function BlocoFonte({
     }
   }
 
-  function selecionaTipo(e: React.ChangeEvent<HTMLInputElement>) {
+  function selecionaTipo(e: React.ChangeEvent<HTMLInputElement>): void {
     setTipoSelecionado(e.target.value)
+  }
+
+  const checkItalicInDescription = (variante: Variante): boolean =>
+    variante.description.toLowerCase().includes('italic')
+
+  const obtemLabelVariante = (variante: Variante): string =>
+    `${variante.weight} ${variante.description} ${
+      variante.italic && !checkItalicInDescription(variante) ? 'italic' : ''
+    }`
+
+  const selecionaVariante = (_e: MouseEvent<HTMLLIElement, MouseEvent>, id: number) => {
+    const objetoFonte = fontes.find(
+      (fonte) => fonte.classe === fonteSelecionada
+    )
+    const varianteSelecionada = objetoFonte!.variantes.find((v) => v.id === id)
+    setFonteVariante(varianteSelecionada)
+  }
+
+  const isVarianteEmpty = (): boolean => !!Object.keys(fonteVariante).length
+  const RenderVariantes = () => {
+    let varianteInicial = ''
+    if (variantes.length) {
+      const temRegular = variantes.find((variante) => {
+        if (variante.weight === 400 && variante.italic === false) {
+          return true
+        }
+        return false
+      })
+      if (!temRegular) {
+        varianteInicial = obtemLabelVariante(variantes[0])
+      } else {
+        varianteInicial = obtemLabelVariante(temRegular)
+      }
+    }
+    return (
+      <TextField
+        id="variantes"
+        label="Variantes"
+        select
+        helperText="Variantes da fonte"
+        variant={variant}
+        value={
+          isVarianteEmpty()
+            ? obtemLabelVariante(fonteVariante)
+            : varianteInicial
+        }
+        fullWidth
+      >
+        {variantes.map((variante) => {
+          return (
+            <MenuItem
+              key={`${form} ${variante.id}`}
+              value={obtemLabelVariante(variante)}
+              onClick={(event) => selecionaVariante(event, variante.id)}
+            >
+              {obtemLabelVariante(variante)}
+            </MenuItem>
+          )
+        })}
+      </TextField>
+    )
   }
 
   return (
@@ -82,7 +159,9 @@ export default function BlocoFonte({
           <TextField
             id="nome"
             defaultValue={nome}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNome(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setNome(e.target.value)
+            }
             label="Nome"
             variant={variant}
             fullWidth
@@ -116,7 +195,6 @@ export default function BlocoFonte({
             variant={variant}
             onChange={selecionaTipo}
             fullWidth
-
           >
             {tipos.map((tipo) => (
               <MenuItem key={tipo} value={tipo}>
@@ -132,11 +210,16 @@ export default function BlocoFonte({
             type="number"
             value={tamanho.toString()}
             variant={variant}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTamanho(parseInt(e.target.value))}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setTamanho(parseInt(e.target.value))
+            }
             InputLabelProps={{
               shrink: true,
             }}
           />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <RenderVariantes />
         </Grid>
       </Grid>
     </>
