@@ -103,25 +103,25 @@ export default function FontSelector() {
             form="secundario"
           />
           <Grid container spacing={2}>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
               <ColorPicker
                 value={corPrincipal}
                 onChange={(e) => setCorPrincipal(e.css.backgroundColor!)}
               />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
               <ColorPicker
                 value={corSecundaria}
                 onChange={(e) => setCorSecundaria(e.css.backgroundColor!)}
               />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
               <ColorPicker
                 value={corFundo}
                 onChange={(e) => setCorFundo(e.css.backgroundColor!)}
               />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
               <Button
                 onClick={salvar}
                 variant="contained"

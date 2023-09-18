@@ -165,7 +165,7 @@ export default function BlocoFonte({
             ))}
           </TextField>
         </Grid>
-        <Grid item xs={12} sm={6} md={2}>
+        <Grid item xs={12} sm={6} md={3} lg={2}>
           <TextField
             id="tipo"
             label="Tipo"
@@ -183,7 +183,7 @@ export default function BlocoFonte({
             ))}
           </TextField>
         </Grid>
-        <Grid item xs={12} sm={6} md={2}>
+        <Grid item xs={12} sm={6} md={3} lg={2}>
           <TextField
             id="outlined-number"
             label="Tamanho"
@@ -198,7 +198,7 @@ export default function BlocoFonte({
             }}
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={2}>
+        <Grid item xs={12} sm={6} md={3} lg={2}>
           {Object.keys(fonteSelecionada.variantes).length && (
             <RenderVariantes />
           )}
