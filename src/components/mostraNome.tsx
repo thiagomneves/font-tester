@@ -22,8 +22,9 @@ const MyPaper = styled(Paper)<{ $cor: string }>`
     background-color: ${(props) => props.$cor};
   }
 `
-const Span = styled.span<{ $tamanho?: number; $cor?: string }>`
+const Span = styled.span<{ $tamanho?: number; $cor?: string, $weight: number }>`
   font-size: ${(props) => props.$tamanho}px;
+  font-weight: ${(props) => props.$weight};
   color: ${(props) => props.$cor};
 `
 
@@ -90,16 +91,18 @@ export default function MostraNome({
         {dados.principal.nome.trim() || dados.secundario.nome.trim() ? (
           <>
             <Span
-              className={dados.principal.fonte}
+              className={dados.principal.fonte.classe}
               $tamanho={dados.principal.tamanho}
               $cor={dados.principal.cor}
+              $weight={dados.principal.variante.weight}
             >
               {dados.principal.nome}
             </Span>
             <Span
-              className={dados.secundario.fonte}
+              className={dados.secundario.fonte.classe}
               $tamanho={dados.secundario.tamanho}
               $cor={dados.secundario.cor}
+              $weight={dados.principal.variante.weight}
             >
               {dados.secundario.nome}
             </Span>
@@ -109,21 +112,21 @@ export default function MostraNome({
         )}
         {estatico && (
           <MuiTooltipContainer>
-          <Tooltip
-            title="Apagar"
-            onMouseOver={handleMouseOverClose}
-            onMouseOut={handleMouseOutClose}
-            onClick={() => apagar(dados.id!)}
-            style={{
-              position: 'absolute',
-              bottom: '0', // Defina a posição vertical desejada (0 para o canto superior)
-              right: '0', // Defina a posição horizontal desejada (0 para o canto direito)
-            }}
-          >
-            <IconButton>
-              <CloseIcon />
-            </IconButton>
-          </Tooltip>
+            <Tooltip
+              title="Apagar"
+              onMouseOver={handleMouseOverClose}
+              onMouseOut={handleMouseOutClose}
+              onClick={() => apagar(dados.id!)}
+              style={{
+                position: 'absolute',
+                bottom: '0', // Defina a posição vertical desejada (0 para o canto superior)
+                right: '0', // Defina a posição horizontal desejada (0 para o canto direito)
+              }}
+            >
+              <IconButton>
+                <CloseIcon />
+              </IconButton>
+            </Tooltip>
           </MuiTooltipContainer>
         )}
       </MyPaper>
