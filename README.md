@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+# Testador de fontes para Marcas escrito em React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Pré-requisitos
 
-Currently, two official plugins are available:
+Você precisará do nodejs instalado, para isso recomendo utilizar o NVM, mas se preferir você pode instalar pelo site oficial
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### NVM
 
-## Expanding the ESLint configuration
+siga as instruções do repositório
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Linux e MacOS
+https://github.com/nvm-sh/nvm
 
-- Configure the top-level `parserOptions` property like this:
+- Windows
+https://github.com/coreybutler/nvm-windows
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Site oficial do Node.js
+- https://nodejs.org/en
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Instalação
+Você pode instalar pelo yarn ou pelo npm, tanto faz.
+
+`yarn` ou `npm install`
+
+caso obtenha algum erro rodando o `npm install` tente `npm install --force`
+
+### Uso
+
+`yarn dev` ou `npm run dev`
