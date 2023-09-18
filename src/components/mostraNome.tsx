@@ -159,6 +159,8 @@ export default function MostraNome({
                     primary={`Tamanho: ${dados.principal.tamanho}`}
                   />
                   <ListItemText primary={`Cor: ${dados.principal.cor}`} />
+                  <ListItemText primary={`Espessura: ${dados.principal.variante.weight}`} />
+                  <ListItemText primary={`Estilo: ${dados.principal.variante.italic ? 'Italic' : 'Normal'}`} />
                 </ListSubheader>
               </ListSubheader>
             )}
@@ -180,6 +182,8 @@ export default function MostraNome({
                     primary={`Tamanho: ${dados.secundario.tamanho}`}
                   />
                   <ListItemText primary={`Cor: ${dados.secundario.cor}`} />
+                  <ListItemText primary={`Espessura: ${dados.secundario.variante.weight}`} />
+                  <ListItemText primary={`Estilo: ${dados.secundario.variante.italic ? 'Italic' : 'Normal'}`} />
                 </ListSubheader>
               </ListSubheader>
             )}
