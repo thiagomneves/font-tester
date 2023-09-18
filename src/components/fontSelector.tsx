@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { Button, Card, Grid } from '@mui/material'
 import { ColorPicker } from 'material-ui-color'
 import AddIcon from '@mui/icons-material/Add'
@@ -10,7 +10,9 @@ import { LocalStorageContext } from '../contexts/LocalStorageContext'
 import MostraNome from './mostraNome'
 import BlocoFonte from './blocoFonte'
 import { FontGroupData } from '../types/FontGroupData'
-import { Variante } from '../types/Fonte'
+import { Fonte, Variante } from '../types/Fonte'
+import { getFontByName } from '../utils/getFont'
+import { varianteInicial } from '../utils/varianteInicial'
 
 const FontSelectorContainer = styled.div`
   padding: 30px;
@@ -22,13 +24,21 @@ export default function FontSelector() {
   const [nomePrincipal, setNomePrincipal] = useState<string>('nome')
   const [nomeSecundario, setNomeSecundario] = useState<string>('')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
-    useState<string>('nunito')
+    useState<Fonte>(getFontByName('cabin'))
   const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] =
-    useState<string>('days-one')
+    useState<Fonte>(getFontByName('days-one'))
   const [tamanhoPrincipal, setTamanhoPrincipal] = useState<number>(30)
   const [tamanhoSecundario, setTamanhoSecundario] = useState<number>(30)
-  const [variantePrincipal, setVariantePrincipal] = useState<Variante>({} as Variante)
-  const [varianteSecundaria, setVarianteSecundaria] = useState<Variante>({} as Variante)
+  const [variantePrincipal, setVariantePrincipal] = useState<Variante>(varianteInicial(fonteSelecionadaPrincipal))
+  const [varianteSecundaria, setVarianteSecundaria] = useState<Variante>(varianteInicial(fonteSelecionadaSecundaria))
+
+  const [corPrincipal, setCorPrincipal] = useState('#000')
+  const [corSecundaria, setCorSecundaria] = useState('#000')
+  const [corFundo, setCorFundo] = useState('#fff')
+
+  useEffect(() => {
+    setVariantePrincipal(varianteInicial(fonteSelecionadaPrincipal))
+  }, [fonteSelecionadaPrincipal])
 
   const salvar = (): void => {
     const novosDados: FontGroupData = {
@@ -57,10 +67,6 @@ export default function FontSelector() {
       dados: [...localStorageData.dados, novosDados],
     })
   }
-
-  const [corPrincipal, setCorPrincipal] = useState('#000')
-  const [corSecundaria, setCorSecundaria] = useState('#000')
-  const [corFundo, setCorFundo] = useState('#fff')
 
   return (
     <>

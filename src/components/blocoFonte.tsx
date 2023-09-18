@@ -1,12 +1,14 @@
 import { Grid, MenuItem, TextField, Typography } from '@mui/material'
 import { MouseEvent, useEffect, useState } from 'react'
 import { Fonte, Variante } from '../types/Fonte'
+import { getFontByClass } from '../utils/getFont'
+import { varianteInicial } from '../utils/varianteInicial'
 
 interface Props {
   label: string
   fontes: Fonte[]
-  fonteSelecionada: string
-  setFonteSelecionada: React.Dispatch<React.SetStateAction<string>>
+  fonteSelecionada: Fonte
+  setFonteSelecionada: React.Dispatch<React.SetStateAction<Fonte>>
   variant?: 'standard' | 'outlined' | 'filled'
   nome: string
   setNome: React.Dispatch<React.SetStateAction<string>>
@@ -34,13 +36,8 @@ export default function BlocoFonte({
   const [tipoSelecionado, setTipoSelecionado] = useState<string>('')
   const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes)
   const [tipos, setTipos] = useState<string[]>([])
-  const [variantes, setVariantes] = useState<Variante[]>([])
 
   /* eslint-disable react-hooks/exhaustive-deps */
-  useEffect(() => {
-    obtemVariantes()
-  }, [fonteSelecionada])
-
   useEffect(() => {
     obtemFontesFiltradas()
   }, [tipoSelecionado])
@@ -49,14 +46,6 @@ export default function BlocoFonte({
     obtemTipos()
   }, [])
   /* eslint-enable react-hooks/exhaustive-deps */
-
-  function obtemVariantes() {
-    const fonte: Fonte = fontes.find(
-      (item) => item.classe === fonteSelecionada
-    )!
-    const variantesArray = fonte.variantes
-    setVariantes(variantesArray)
-  }
 
   function obtemTipos(): void {
     const tiposUnicos = new Set<string>()
@@ -74,10 +63,10 @@ export default function BlocoFonte({
       )
       setFontesFiltradas([...novaFontes])
       const estaNoGrupo = novaFontes.find(
-        (item) => item.classe === fonteSelecionada
+        (item) => item.classe === fonteSelecionada.classe
       )
       if (!estaNoGrupo) {
-        setFonteSelecionada('')
+        setFonteSelecionada(novaFontes[0])
       }
     } else {
       setFontesFiltradas([...fontes])
@@ -91,35 +80,27 @@ export default function BlocoFonte({
   const checkItalicInDescription = (variante: Variante): boolean =>
     variante.description.toLowerCase().includes('italic')
 
-  const obtemLabelVariante = (variante: Variante): string =>
-    `${variante.weight} ${variante.description} ${
-      variante.italic && !checkItalicInDescription(variante) ? 'italic' : ''
+  const obtemLabelVariante = (variante: Variante): string => {
+    return `${variante.weight} ${variante.description}${
+      variante.italic && !checkItalicInDescription(variante) ? ' italic' : ''
     }`
+  }
 
-  const selecionaVariante = (_e: MouseEvent<HTMLLIElement, MouseEvent>, id: number) => {
-    const objetoFonte = fontes.find(
-      (fonte) => fonte.classe === fonteSelecionada
-    )
-    const varianteSelecionada = objetoFonte!.variantes.find((v) => v.id === id)
+  const handleSelecionaVariante = (
+    _e: MouseEvent,
+    id: number
+  ) => {
+    const varianteSelecionada = fonteSelecionada.variantes.find((v) => v.id === id)
     setFonteVariante(varianteSelecionada)
   }
 
-  const isVarianteEmpty = (): boolean => !!Object.keys(fonteVariante).length
+  const handleSelecionaFonte = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    const novaFonte = getFontByClass(e.target.value)
+    setFonteSelecionada(novaFonte)
+    setFonteVariante(varianteInicial(novaFonte))
+  }
+
   const RenderVariantes = () => {
-    let varianteInicial = ''
-    if (variantes.length) {
-      const temRegular = variantes.find((variante) => {
-        if (variante.weight === 400 && variante.italic === false) {
-          return true
-        }
-        return false
-      })
-      if (!temRegular) {
-        varianteInicial = obtemLabelVariante(variantes[0])
-      } else {
-        varianteInicial = obtemLabelVariante(temRegular)
-      }
-    }
     return (
       <TextField
         id="variantes"
@@ -127,19 +108,15 @@ export default function BlocoFonte({
         select
         helperText="Variantes da fonte"
         variant={variant}
-        value={
-          isVarianteEmpty()
-            ? obtemLabelVariante(fonteVariante)
-            : varianteInicial
-        }
+        value={obtemLabelVariante(fonteVariante)}
         fullWidth
       >
-        {variantes.map((variante) => {
+        {fonteSelecionada.variantes.map((variante) => {
           return (
             <MenuItem
               key={`${form} ${variante.id}`}
               value={obtemLabelVariante(variante)}
-              onClick={(event) => selecionaVariante(event, variante.id)}
+              onClick={(event: MouseEvent) => handleSelecionaVariante(event, variante.id)}
             >
               {obtemLabelVariante(variante)}
             </MenuItem>
@@ -155,7 +132,7 @@ export default function BlocoFonte({
         {label}
       </Typography>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
           <TextField
             id="nome"
             defaultValue={nome}
@@ -171,11 +148,11 @@ export default function BlocoFonte({
           <TextField
             id="fonte"
             select
-            value={fonteSelecionada}
+            value={fonteSelecionada.classe}
             helperText="Selecione uma Fonte"
             label="Fonte"
             variant={variant}
-            onChange={(e) => setFonteSelecionada(e.target.value)}
+            onChange={handleSelecionaFonte}
             fullWidth
           >
             {fontesFiltradas.map((fonte) => (
@@ -185,7 +162,7 @@ export default function BlocoFonte({
             ))}
           </TextField>
         </Grid>
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} md={2}>
           <TextField
             id="tipo"
             label="Tipo"
@@ -218,8 +195,8 @@ export default function BlocoFonte({
             }}
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <RenderVariantes />
+        <Grid item xs={12} sm={6} md={2}>
+          {Object.keys(fonteSelecionada.variantes).length && <RenderVariantes />}
         </Grid>
       </Grid>
     </>
