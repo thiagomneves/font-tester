@@ -3515,9 +3515,15 @@
       },
       {
         "weight": 1000,
-        "description": "Weight: 1000",
-        "italic": true,
+        "description": "Black",
+        "italic": false,
         "id": 17
+      },
+      {
+        "weight": 1000,
+        "description": "Black",
+        "italic": true,
+        "id": 18
       }
     ]
   },

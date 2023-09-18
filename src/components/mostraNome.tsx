@@ -22,9 +22,10 @@ const MyPaper = styled(Paper)<{ $cor: string }>`
     background-color: ${(props) => props.$cor};
   }
 `
-const Span = styled.span<{ $tamanho?: number; $cor?: string, $weight: number }>`
+const Span = styled.span<{ $tamanho?: number; $cor?: string, $weight?: number, $italic?: boolean }>`
   font-size: ${(props) => props.$tamanho}px;
   font-weight: ${(props) => props.$weight};
+  font-style: ${(props) => props.$italic ? 'italic' : 'normal'};
   color: ${(props) => props.$cor};
 `
 
@@ -95,6 +96,7 @@ export default function MostraNome({
               $tamanho={dados.principal.tamanho}
               $cor={dados.principal.cor}
               $weight={dados.principal.variante.weight}
+              $italic={dados.principal.variante.italic}
             >
               {dados.principal.nome}
             </Span>
@@ -102,7 +104,8 @@ export default function MostraNome({
               className={dados.secundario.fonte.classe}
               $tamanho={dados.secundario.tamanho}
               $cor={dados.secundario.cor}
-              $weight={dados.principal.variante.weight}
+              $weight={dados.secundario.variante.weight}
+              $italic={dados.secundario.variante.italic}
             >
               {dados.secundario.nome}
             </Span>
