@@ -1,6 +1,6 @@
 [
   {
-    "nome": "Abel",
+    "label": "Abel",
     "classe": "abel",
     "tipo": "sans-serif",
     "site": "google",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "nome": "Aileron",
+    "label": "Aileron",
     "classe": "aileron",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "nome": "Aleo",
+    "label": "Aleo",
     "classe": "aleo",
     "tipo": "serif",
     "site": "google",
@@ -210,7 +210,7 @@
     ]
   },
   {
-    "nome": "Allerta",
+    "label": "Allerta",
     "classe": "allerta",
     "tipo": "sans-serif",
     "site": "google",
@@ -223,7 +223,7 @@
     ]
   },
   {
-    "nome": "Amaranth",
+    "label": "Amaranth",
     "classe": "amaranth",
     "tipo": "sans-serif",
     "site": "google",
@@ -255,7 +255,7 @@
     ]
   },
   {
-    "nome": "Amatic SC",
+    "label": "Amatic SC",
     "classe": "amatic-sc",
     "tipo": "cursive",
     "site": "google",
@@ -275,7 +275,7 @@
     ]
   },
   {
-    "nome": "Arbutus Slab",
+    "label": "Arbutus Slab",
     "classe": "arbutus-slab",
     "tipo": "serif",
     "site": "google",
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "nome": "Archivo",
+    "label": "Archivo",
     "site": "google",
     "tipo": "sans-serif",
     "variantes": [
@@ -404,7 +404,7 @@
     "classe": "archivo"
   },
   {
-    "nome": "Arial",
+    "label": "Arial",
     "tipo": "sans-serif",
     "site": "cdnfonts",
     "variantes": [
@@ -430,7 +430,7 @@
     "classe": "arial"
   },
   {
-    "nome": "Arial Black",
+    "label": "Arial Black",
     "tipo": "sans-serif",
     "site": "cdnfonts",
     "variantes": [
@@ -444,7 +444,7 @@
     "classe": "arial-black"
   },
   {
-    "nome": "Arial CE",
+    "label": "Arial CE",
     "tipo": "sans-serif",
     "site": "cdnfonts",
     "variantes": [
@@ -458,7 +458,7 @@
     "classe": "arial-ce"
   },
   {
-    "nome": "Arial CE MT Black",
+    "label": "Arial CE MT Black",
     "tipo": "sans-serif",
     "site": "cdnfonts",
     "variantes": [
@@ -472,7 +472,7 @@
     "classe": "arial-ce-mt-black"
   },
   {
-    "nome": "Arial Light",
+    "label": "Arial Light",
     "tipo": "sans-serif",
     "site": "cdnfonts",
     "variantes": [
@@ -486,7 +486,7 @@
     "classe": "arial-light"
   },
   {
-    "nome": "Arizonia",
+    "label": "Arizonia",
     "classe": "arizonia",
     "tipo": "cursive",
     "site": "google",
@@ -499,7 +499,7 @@
     ]
   },
   {
-    "nome": "Artifika",
+    "label": "Artifika",
     "classe": "artifika",
     "tipo": "serif",
     "site": "google",
@@ -512,7 +512,7 @@
     ]
   },
   {
-    "nome": "Asap",
+    "label": "Asap",
     "classe": "asap",
     "tipo": "sans-serif",
     "site": "google",
@@ -592,7 +592,7 @@
     ]
   },
   {
-    "nome": "Asul",
+    "label": "Asul",
     "classe": "asul",
     "tipo": "sans-serif",
     "site": "google",
@@ -612,7 +612,7 @@
     ]
   },
   {
-    "nome": "Audiowide",
+    "label": "Audiowide",
     "site": "google",
     "tipo": "cursive",
     "variantes": [
@@ -626,7 +626,7 @@
     "classe": "audiowide"
   },
   {
-    "nome": "Avenir",
+    "label": "Avenir",
     "classe": "avenir",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -640,7 +640,7 @@
     ]
   },
   {
-    "nome": "Barlow",
+    "label": "Barlow",
     "site": "google",
     "tipo": "sans-serif",
     "variantes": [
@@ -756,7 +756,7 @@
     "classe": "barlow"
   },
   {
-    "nome": "Baumans",
+    "label": "Baumans",
     "classe": "baumans",
     "tipo": "cursive",
     "site": "google",
@@ -770,7 +770,7 @@
     ]
   },
   {
-    "nome": "Be Vietnam Pro",
+    "label": "Be Vietnam Pro",
     "classe": "be-vietnam-pro",
     "tipo": "sans-serif",
     "site": "google",
@@ -886,7 +886,7 @@
     ]
   },
   {
-    "nome": "Bebas Kai",
+    "label": "Bebas Kai",
     "classe": "bebas-kai",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -900,7 +900,7 @@
     ]
   },
   {
-    "nome": "Bebas Neue",
+    "label": "Bebas Neue",
     "classe": "bebas-neue",
     "tipo": "cursive",
     "site": "cdnfonts",
@@ -932,7 +932,7 @@
     ]
   },
   {
-    "nome": "Belgrano",
+    "label": "Belgrano",
     "classe": "belgrano",
     "tipo": "cursive",
     "site": "google",
@@ -946,7 +946,7 @@
     ]
   },
   {
-    "nome": "BenchNine",
+    "label": "BenchNine",
     "classe": "benchnine",
     "tipo": "sans-serif",
     "site": "google",
@@ -972,7 +972,7 @@
     ]
   },
   {
-    "nome": "Berkshire Swash",
+    "label": "Berkshire Swash",
     "site": "google",
     "tipo": "cursive",
     "variantes": [
@@ -986,7 +986,7 @@
     "classe": "berkshire-swash"
   },
   {
-    "nome": "Cabin",
+    "label": "Cabin",
     "classe": "cabin",
     "tipo": "sans-serif",
     "site": "google",
@@ -1042,7 +1042,7 @@
     ]
   },
   {
-    "nome": "Calibri",
+    "label": "Calibri",
     "classe": "calibri",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -1056,7 +1056,7 @@
     ]
   },
   {
-    "nome": "Calling Heart",
+    "label": "Calling Heart",
     "classe": "calling-heart",
     "tipo": "cursive",
     "site": "cdnfonts",
@@ -1070,7 +1070,7 @@
     ]
   },
   {
-    "nome": "Catamaran",
+    "label": "Catamaran",
     "classe": "catamaran",
     "tipo": "sans-serif",
     "site": "google",
@@ -1126,7 +1126,7 @@
     ]
   },
   {
-    "nome": "Changa One",
+    "label": "Changa One",
     "classe": "changa-one",
     "tipo": "sans-serif",
     "site": "google",
@@ -1146,7 +1146,7 @@
     ]
   },
   {
-    "nome": "Cinzel",
+    "label": "Cinzel",
     "classe": "cinzel",
     "tipo": "serif",
     "site": "google",
@@ -1226,7 +1226,7 @@
     ]
   },
   {
-    "nome": "Cinzel Decorative",
+    "label": "Cinzel Decorative",
     "classe": "cinzel-decorative",
     "tipo": "cursive",
     "site": "google",
@@ -1252,7 +1252,7 @@
     ]
   },
   {
-    "nome": "Condiment",
+    "label": "Condiment",
     "classe": "condiment",
     "tipo": "cursive",
     "site": "google",
@@ -1266,7 +1266,7 @@
     ]
   },
   {
-    "nome": "Cormorant",
+    "label": "Cormorant",
     "classe": "cormorant",
     "tipo": "serif",
     "site": "google",
@@ -1334,7 +1334,7 @@
     ]
   },
   {
-    "nome": "Coustard",
+    "label": "Coustard",
     "classe": "coustard",
     "tipo": "serif",
     "site": "google",
@@ -1354,7 +1354,7 @@
     ]
   },
   {
-    "nome": "Days One",
+    "label": "Days One",
     "classe": "days-one",
     "tipo": "sans-serif",
     "site": "google",
@@ -1368,7 +1368,7 @@
     ]
   },
   {
-    "nome": "Dosis",
+    "label": "Dosis",
     "classe": "dosis",
     "tipo": "sans-serif",
     "site": "google",
@@ -1418,7 +1418,7 @@
     ]
   },
   {
-    "nome": "Encode Sans Semi Condensed",
+    "label": "Encode Sans Semi Condensed",
     "classe": "encode-sans-semi-condensed",
     "tipo": "sans-serif",
     "site": "google",
@@ -1480,7 +1480,7 @@
     ]
   },
   {
-    "nome": "Exo 2",
+    "label": "Exo 2",
     "classe": "exo-2",
     "tipo": "sans-serif",
     "site": "google",
@@ -1596,7 +1596,7 @@
     ]
   },
   {
-    "nome": "Expletus Sans",
+    "label": "Expletus Sans",
     "classe": "expletus-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -1652,7 +1652,7 @@
     ]
   },
   {
-    "nome": "Fira Sans",
+    "label": "Fira Sans",
     "classe": "fira-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -1768,7 +1768,7 @@
     ]
   },
   {
-    "nome": "Fjalla One",
+    "label": "Fjalla One",
     "classe": "fjalla-one",
     "tipo": "sans-serif",
     "site": "google",
@@ -1782,7 +1782,7 @@
     ]
   },
   {
-    "nome": "Francois One",
+    "label": "Francois One",
     "classe": "francois-one",
     "tipo": "sans-serif",
     "site": "google",
@@ -1796,7 +1796,7 @@
     ]
   },
   {
-    "nome": "Futura Std",
+    "label": "Futura Std",
     "classe": "futura-std",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -1924,7 +1924,7 @@
     ]
   },
   {
-    "nome": "Gill Sans Std",
+    "label": "Gill Sans Std",
     "classe": "gill-sans-std",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -2022,7 +2022,7 @@
     ]
   },
   {
-    "nome": "Gravitas One",
+    "label": "Gravitas One",
     "classe": "gravitas-one",
     "tipo": "serif",
     "site": "google",
@@ -2036,7 +2036,7 @@
     ]
   },
   {
-    "nome": "Hack",
+    "label": "Hack",
     "classe": "hack",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -2068,7 +2068,7 @@
     ]
   },
   {
-    "nome": "Hind",
+    "label": "Hind",
     "classe": "hind",
     "tipo": "sans-serif",
     "site": "google",
@@ -2106,7 +2106,7 @@
     ]
   },
   {
-    "nome": "Homenaje",
+    "label": "Homenaje",
     "site": "google",
     "tipo": "sans-serif",
     "variantes": [
@@ -2120,7 +2120,7 @@
     "classe": "homenaje"
   },
   {
-    "nome": "Iceberg",
+    "label": "Iceberg",
     "classe": "iceberg",
     "tipo": "cursive",
     "site": "google",
@@ -2134,7 +2134,7 @@
     ]
   },
   {
-    "nome": "Inconsolata",
+    "label": "Inconsolata",
     "classe": "inconsolata",
     "tipo": "monospace",
     "site": "google",
@@ -2190,7 +2190,7 @@
     ]
   },
   {
-    "nome": "Jaldi",
+    "label": "Jaldi",
     "classe": "jaldi",
     "tipo": "sans-serif",
     "site": "google",
@@ -2210,7 +2210,7 @@
     ]
   },
   {
-    "nome": "Jomolhari",
+    "label": "Jomolhari",
     "classe": "jomolhari",
     "tipo": "serif",
     "site": "google",
@@ -2224,7 +2224,7 @@
     ]
   },
   {
-    "nome": "Josefin Sans",
+    "label": "Josefin Sans",
     "classe": "josefin-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -2316,7 +2316,7 @@
     ]
   },
   {
-    "nome": "Junge",
+    "label": "Junge",
     "classe": "junge",
     "tipo": "serif",
     "site": "google",
@@ -2330,7 +2330,7 @@
     ]
   },
   {
-    "nome": "Jura",
+    "label": "Jura",
     "classe": "jura",
     "tipo": "sans-serif",
     "site": "google",
@@ -2368,7 +2368,7 @@
     ]
   },
   {
-    "nome": "Kanit",
+    "label": "Kanit",
     "classe": "kanit",
     "tipo": "sans-serif",
     "site": "google",
@@ -2484,7 +2484,7 @@
     ]
   },
   {
-    "nome": "Karla",
+    "label": "Karla",
     "classe": "karla",
     "tipo": "sans-serif",
     "site": "google",
@@ -2576,7 +2576,7 @@
     ]
   },
   {
-    "nome": "Karma",
+    "label": "Karma",
     "classe": "karma",
     "tipo": "serif",
     "site": "google",
@@ -2614,7 +2614,7 @@
     ]
   },
   {
-    "nome": "Knewave",
+    "label": "Knewave",
     "classe": "knewave",
     "tipo": "cursive",
     "site": "google",
@@ -2628,7 +2628,7 @@
     ]
   },
   {
-    "nome": "Lalezar",
+    "label": "Lalezar",
     "classe": "lalezar",
     "tipo": "cursive",
     "site": "google",
@@ -2642,7 +2642,7 @@
     ]
   },
   {
-    "nome": "Lato",
+    "label": "Lato",
     "classe": "lato",
     "tipo": "sans-serif",
     "site": "google",
@@ -2710,7 +2710,7 @@
     ]
   },
   {
-    "nome": "Lobster",
+    "label": "Lobster",
     "classe": "lobster",
     "tipo": "cursive",
     "site": "google",
@@ -2724,7 +2724,7 @@
     ]
   },
   {
-    "nome": "Lora",
+    "label": "Lora",
     "classe": "lora",
     "tipo": "serif",
     "site": "google",
@@ -2780,7 +2780,7 @@
     ]
   },
   {
-    "nome": "Marcellus SC",
+    "label": "Marcellus SC",
     "classe": "marcellus-sc",
     "tipo": "serif",
     "site": "google",
@@ -2794,7 +2794,7 @@
     ]
   },
   {
-    "nome": "Marvel",
+    "label": "Marvel",
     "classe": "marvel",
     "tipo": "sans-serif",
     "site": "google",
@@ -2826,7 +2826,7 @@
     ]
   },
   {
-    "nome": "Miltonian",
+    "label": "Miltonian",
     "classe": "miltonian",
     "tipo": "cursive",
     "site": "google",
@@ -2840,7 +2840,7 @@
     ]
   },
   {
-    "nome": "Molle",
+    "label": "Molle",
     "site": "cdnfonts",
     "tipo": "cursive",
     "variantes": [
@@ -2854,7 +2854,7 @@
     "classe": "molle"
   },
   {
-    "nome": "Monaco",
+    "label": "Monaco",
     "site": "cdnfonts",
     "tipo": "sans-serif",
     "variantes": [
@@ -2868,7 +2868,7 @@
     "classe": "monaco"
   },
   {
-    "nome": "Montserrat",
+    "label": "Montserrat",
     "classe": "montserrat",
     "tipo": "sans-serif",
     "site": "google",
@@ -2984,7 +2984,7 @@
     ]
   },
   {
-    "nome": "Montserrat Alternates",
+    "label": "Montserrat Alternates",
     "classe": "montserrat-alternates",
     "tipo": "sans-serif",
     "site": "google",
@@ -3100,7 +3100,7 @@
     ]
   },
   {
-    "nome": "Mulish",
+    "label": "Mulish",
     "site": "google",
     "tipo": "sans-serif",
     "variantes": [
@@ -3216,7 +3216,7 @@
     "classe": "mulish"
   },
   {
-    "nome": "Nanum Myeongjo",
+    "label": "Nanum Myeongjo",
     "classe": "nanum-myeongjo",
     "tipo": "serif",
     "site": "google",
@@ -3242,7 +3242,7 @@
     ]
   },
   {
-    "nome": "Neucha",
+    "label": "Neucha",
     "classe": "neucha",
     "tipo": "cursive",
     "site": "google",
@@ -3256,7 +3256,7 @@
     ]
   },
   {
-    "nome": "News Cycle",
+    "label": "News Cycle",
     "classe": "news-cycle",
     "tipo": "sans-serif",
     "site": "google",
@@ -3276,7 +3276,7 @@
     ]
   },
   {
-    "nome": "Nexa",
+    "label": "Nexa",
     "classe": "nexa",
     "tipo": "sans-serif",
     "site": "cdnfonts",
@@ -3296,7 +3296,7 @@
     ]
   },
   {
-    "nome": "Noto Sans",
+    "label": "Noto Sans",
     "classe": "noto-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -3412,7 +3412,7 @@
     ]
   },
   {
-    "nome": "Nunito",
+    "label": "Nunito",
     "classe": "nunito",
     "tipo": "sans-serif",
     "site": "google",
@@ -3528,7 +3528,7 @@
     ]
   },
   {
-    "nome": "Open Sans",
+    "label": "Open Sans",
     "classe": "open-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -3608,7 +3608,7 @@
     ]
   },
   {
-    "nome": "Overlock",
+    "label": "Overlock",
     "classe": "overlock",
     "tipo": "cursive",
     "site": "google",
@@ -3652,7 +3652,7 @@
     ]
   },
   {
-    "nome": "Oxygen",
+    "label": "Oxygen",
     "classe": "oxygen",
     "tipo": "sans-serif",
     "site": "google",
@@ -3678,7 +3678,7 @@
     ]
   },
   {
-    "nome": "Patrick Hand",
+    "label": "Patrick Hand",
     "classe": "patrick-hand",
     "tipo": "cursive",
     "site": "google",
@@ -3692,7 +3692,7 @@
     ]
   },
   {
-    "nome": "Pattaya",
+    "label": "Pattaya",
     "classe": "pattaya",
     "tipo": "cursive",
     "site": "google",
@@ -3706,7 +3706,7 @@
     ]
   },
   {
-    "nome": "Paytone One",
+    "label": "Paytone One",
     "classe": "paytone-one",
     "tipo": "sans-serif",
     "site": "google",
@@ -3720,7 +3720,7 @@
     ]
   },
   {
-    "nome": "Poppins",
+    "label": "Poppins",
     "classe": "poppins",
     "tipo": "sans-serif",
     "site": "google",
@@ -3836,7 +3836,7 @@
     ]
   },
   {
-    "nome": "Prata",
+    "label": "Prata",
     "classe": "prata",
     "tipo": "serif",
     "site": "google",
@@ -3850,7 +3850,7 @@
     ]
   },
   {
-    "nome": "Prosto Sans",
+    "label": "Prosto Sans",
     "site": "cdnfonts",
     "tipo": "sans-serif",
     "variantes": [
@@ -3864,7 +3864,7 @@
     "classe": "prosto-sans"
   },
   {
-    "nome": "Proxima Nova Condensed",
+    "label": "Proxima Nova Condensed",
     "site": "cdnfonts",
     "tipo": "sans-serif",
     "variantes": [
@@ -3956,7 +3956,7 @@
     "classe": "proxima-nova-condensed"
   },
   {
-    "nome": "Proxima Nova Extra Condensed",
+    "label": "Proxima Nova Extra Condensed",
     "site": "cdnfonts",
     "tipo": "sans-serif",
     "variantes": [
@@ -4048,7 +4048,7 @@
     "classe": "proxima-nova-extra-condensed"
   },
   {
-    "nome": "PT Sans",
+    "label": "PT Sans",
     "classe": "pt-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -4080,7 +4080,7 @@
     ]
   },
   {
-    "nome": "Questrial",
+    "label": "Questrial",
     "classe": "questrial",
     "tipo": "sans-serif",
     "site": "google",
@@ -4094,7 +4094,7 @@
     ]
   },
   {
-    "nome": "Quicksand",
+    "label": "Quicksand",
     "classe": "quicksand",
     "tipo": "sans-serif",
     "site": "google",
@@ -4132,7 +4132,7 @@
     ]
   },
   {
-    "nome": "Rajdhani",
+    "label": "Rajdhani",
     "classe": "rajdhani",
     "tipo": "sans-serif",
     "site": "google",
@@ -4170,7 +4170,7 @@
     ]
   },
   {
-    "nome": "Rakkas",
+    "label": "Rakkas",
     "classe": "rakkas",
     "tipo": "cursive",
     "site": "google",
@@ -4184,7 +4184,7 @@
     ]
   },
   {
-    "nome": "Raleway",
+    "label": "Raleway",
     "classe": "raleway",
     "tipo": "sans-serif",
     "site": "google",
@@ -4300,7 +4300,7 @@
     ]
   },
   {
-    "nome": "Rasa",
+    "label": "Rasa",
     "classe": "rasa",
     "tipo": "serif",
     "site": "google",
@@ -4368,7 +4368,7 @@
     ]
   },
   {
-    "nome": "Roboto",
+    "label": "Roboto",
     "classe": "roboto",
     "tipo": "sans-serif",
     "site": "google",
@@ -4448,7 +4448,7 @@
     ]
   },
   {
-    "nome": "Romanesco",
+    "label": "Romanesco",
     "classe": "romanesco",
     "tipo": "cursive",
     "site": "google",
@@ -4462,7 +4462,7 @@
     ]
   },
   {
-    "nome": "Sanchez",
+    "label": "Sanchez",
     "classe": "sanchez",
     "tipo": "serif",
     "site": "google",
@@ -4482,7 +4482,7 @@
     ]
   },
   {
-    "nome": "Sansita Swashed",
+    "label": "Sansita Swashed",
     "classe": "sansita-swashed",
     "tipo": "cursive",
     "site": "google",
@@ -4532,7 +4532,7 @@
     ]
   },
   {
-    "nome": "Satisfy",
+    "label": "Satisfy",
     "classe": "satisfy",
     "tipo": "cursive",
     "site": "google",
@@ -4546,7 +4546,7 @@
     ]
   },
   {
-    "nome": "Share",
+    "label": "Share",
     "classe": "share",
     "tipo": "sans-serif",
     "site": "google",
@@ -4578,7 +4578,7 @@
     ]
   },
   {
-    "nome": "Share Tech",
+    "label": "Share Tech",
     "classe": "share-tech",
     "tipo": "sans-serif",
     "site": "google",
@@ -4592,7 +4592,7 @@
     ]
   },
   {
-    "nome": "Share Tech Mono",
+    "label": "Share Tech Mono",
     "classe": "share-tech-mono",
     "tipo": "monospace",
     "site": "google",
@@ -4606,7 +4606,7 @@
     ]
   },
   {
-    "nome": "Source Code Pro",
+    "label": "Source Code Pro",
     "classe": "source-code-pro",
     "tipo": "monospace",
     "site": "google",
@@ -4710,7 +4710,7 @@
     ]
   },
   {
-    "nome": "Source Sans 3",
+    "label": "Source Sans 3",
     "classe": "source-sans-3",
     "tipo": "sans-serif",
     "site": "google",
@@ -4814,7 +4814,7 @@
     ]
   },
   {
-    "nome": "Special Elite",
+    "label": "Special Elite",
     "classe": "special-elite",
     "tipo": "cursive",
     "site": "google",
@@ -4828,7 +4828,7 @@
     ]
   },
   {
-    "nome": "Spectral",
+    "label": "Spectral",
     "classe": "spectral",
     "tipo": "serif",
     "site": "google",
@@ -4920,7 +4920,7 @@
     ]
   },
   {
-    "nome": "Spectral SC",
+    "label": "Spectral SC",
     "classe": "spectral-sc",
     "tipo": "serif",
     "site": "google",
@@ -5012,7 +5012,7 @@
     ]
   },
   {
-    "nome": "Stylish",
+    "label": "Stylish",
     "classe": "stylish",
     "tipo": "sans-serif",
     "site": "google",
@@ -5026,7 +5026,7 @@
     ]
   },
   {
-    "nome": "Sulphur Point",
+    "label": "Sulphur Point",
     "site": "google",
     "tipo": "sans-serif",
     "variantes": [
@@ -5052,7 +5052,7 @@
     "classe": "sulphur-point"
   },
   {
-    "nome": "Teko",
+    "label": "Teko",
     "classe": "teko",
     "tipo": "sans-serif",
     "site": "google",
@@ -5090,7 +5090,7 @@
     ]
   },
   {
-    "nome": "Text Me One",
+    "label": "Text Me One",
     "classe": "text-me-one",
     "tipo": "sans-serif",
     "site": "google",
@@ -5104,7 +5104,7 @@
     ]
   },
   {
-    "nome": "Ubuntu",
+    "label": "Ubuntu",
     "classe": "ubuntu",
     "tipo": "sans-serif",
     "site": "google",
@@ -5160,7 +5160,7 @@
     ]
   },
   {
-    "nome": "Uncial Antiqua",
+    "label": "Uncial Antiqua",
     "classe": "uncial-antiqua",
     "tipo": "cursive",
     "site": "google",
@@ -5174,7 +5174,7 @@
     ]
   },
   {
-    "nome": "Work Sans",
+    "label": "Work Sans",
     "classe": "work-sans",
     "tipo": "sans-serif",
     "site": "google",
@@ -5290,7 +5290,7 @@
     ]
   },
   {
-    "nome": "Yrsa",
+    "label": "Yrsa",
     "classe": "yrsa",
     "tipo": "serif",
     "site": "google",
@@ -5358,7 +5358,7 @@
     ]
   },
   {
-    "nome": "Zilla Slab",
+    "label": "Zilla Slab",
     "classe": "zilla-slab",
     "tipo": "serif",
     "site": "google",

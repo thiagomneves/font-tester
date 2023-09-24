@@ -17,7 +17,7 @@ export default function ListaSalvos() {
             {localStorageData.dados.map((item, index) => (
               <Grid item xs={12} sm={6} md={4} xl={3} key={`item${index}`}>
                 <MostraNome
-                  key={`${index}${item.principal.nome}${item.secundario.nome}`}
+                  key={`${index}${item.principal.label}${item.secundario.label}`}
                   dados={item}
                   estatico
                 />

@@ -1,17 +1,22 @@
-import { Grid, MenuItem, TextField, Typography } from '@mui/material'
+import {
+  Autocomplete,
+  Grid,
+  MenuItem,
+  TextField,
+  Typography,
+} from '@mui/material'
 import { MouseEvent, useEffect, useState } from 'react'
 import { Fonte, Variante } from '../types/Fonte'
-import { getFontByClass } from '../utils/getFont'
 import { varianteInicial } from '../utils/varianteInicial'
 
 interface Props {
-  label: string
+  labelBloco: string
   fontes: Fonte[]
   fonteSelecionada: Fonte
   setFonteSelecionada: React.Dispatch<React.SetStateAction<Fonte>>
   variant?: 'standard' | 'outlined' | 'filled'
-  nome: string
-  setNome: React.Dispatch<React.SetStateAction<string>>
+  label: string
+  setLabel: React.Dispatch<React.SetStateAction<string>>
   tamanho: number
   setTamanho: React.Dispatch<React.SetStateAction<number>>
   fonteVariante: Variante
@@ -20,13 +25,13 @@ interface Props {
 }
 
 export default function BlocoFonte({
-  label,
+  labelBloco,
   fontes,
   fonteSelecionada,
   setFonteSelecionada,
   variant = 'standard',
-  nome,
-  setNome,
+  label,
+  setLabel,
   tamanho,
   setTamanho,
   fonteVariante,
@@ -93,12 +98,9 @@ export default function BlocoFonte({
     setFonteVariante(varianteSelecionada)
   }
 
-  const handleSelecionaFonte = (
-    e: React.ChangeEvent<HTMLInputElement>
-  ): void => {
-    const novaFonte = getFontByClass(e.target.value)
-    setFonteSelecionada(novaFonte)
-    setFonteVariante(varianteInicial(novaFonte))
+  const handleSelecionaFonte = (_, fonte: Fonte) => {
+    setFonteSelecionada(fonte)
+    setFonteVariante(varianteInicial(fonte))
   }
 
   const RenderVariantes = () => {
@@ -132,15 +134,15 @@ export default function BlocoFonte({
   return (
     <>
       <Typography variant="h6" gutterBottom>
-        {label}
+        {labelBloco}
       </Typography>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={3}>
           <TextField
             id="nome"
-            defaultValue={nome}
+            defaultValue={label}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setNome(e.target.value)
+              setLabel(e.target.value)
             }
             label="Nome"
             variant={variant}
@@ -148,22 +150,33 @@ export default function BlocoFonte({
           />
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <TextField
+          <Autocomplete
+            disablePortal
             id="fonte"
-            select
-            value={fonteSelecionada.classe}
-            helperText="Selecione uma Fonte"
-            label="Fonte"
-            variant={variant}
-            onChange={handleSelecionaFonte}
-            fullWidth
-          >
-            {fontesFiltradas.map((fonte) => (
-              <MenuItem key={fonte.nome} value={fonte.classe}>
-                <span className={fonte.classe}>{fonte.nome}</span>
-              </MenuItem>
-            ))}
-          </TextField>
+            options={fontesFiltradas}
+            getOptionLabel={(option) => option.label}
+            value={fonteSelecionada}
+            renderOption={(_e, fonte) => {
+              return (
+                <MenuItem
+                  key={fonte.label}
+                  value={fonte.classe}
+                  onClick={(e) => handleSelecionaFonte(e, fonte)}
+                >
+                  <span className={fonte.classe}>{fonte.label}</span>
+                </MenuItem>
+              )
+            }}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                label="Fonte"
+                helperText="Selecione uma Fonte"
+                variant={variant}
+                onChange={() => console.log('porramammm')}
+              />
+            )}
+          />
         </Grid>
         <Grid item xs={12} sm={6} md={3} lg={2}>
           <TextField

@@ -6,7 +6,7 @@ export interface Variante {
 }
 
 export interface Fonte {
-  nome: string
+  label: string
   tipo: string
   classe: string
   variantes: Variantes[]

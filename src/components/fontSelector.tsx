@@ -21,8 +21,8 @@ const FontSelectorContainer = styled.div`
 export default function FontSelector() {
   const { localStorageData, setLocalStorageData } =
     useContext(LocalStorageContext)
-  const [nomePrincipal, setNomePrincipal] = useState<string>('nome')
-  const [nomeSecundario, setNomeSecundario] = useState<string>('')
+  const [nomePrincipal, setLabelPrincipal] = useState<string>('nome')
+  const [nomeSecundario, setLabelSecundario] = useState<string>('')
   const [fonteSelecionadaPrincipal, setFonteSelecionadaPrincipal] =
     useState<Fonte>(getFontByName('nunito'))
   const [fonteSelecionadaSecundaria, setFonteSelecionadaSecundaria] =
@@ -48,14 +48,14 @@ export default function FontSelector() {
     const novosDados: FontGroupData = {
       id: uuidv4(),
       principal: {
-        nome: nomePrincipal,
+        label: nomePrincipal,
         fonte: fonteSelecionadaPrincipal,
         tamanho: tamanhoPrincipal,
         cor: corPrincipal,
         variante: variantePrincipal,
       },
       secundario: {
-        nome: nomeSecundario,
+        label: nomeSecundario,
         fonte: fonteSelecionadaSecundaria,
         tamanho: tamanhoSecundario,
         cor: corSecundaria,
@@ -77,12 +77,12 @@ export default function FontSelector() {
       <Card variant="outlined">
         <FontSelectorContainer>
           <BlocoFonte
-            label="Fonte Principal"
+            labelBloco="Fonte Principal"
             fontes={fontes}
             fonteSelecionada={fonteSelecionadaPrincipal}
             setFonteSelecionada={setFonteSelecionadaPrincipal}
-            nome={nomePrincipal}
-            setNome={setNomePrincipal}
+            label={nomePrincipal}
+            setLabel={setLabelPrincipal}
             tamanho={tamanhoPrincipal}
             setTamanho={setTamanhoPrincipal}
             fonteVariante={variantePrincipal}
@@ -90,12 +90,12 @@ export default function FontSelector() {
             form="principal"
           />
           <BlocoFonte
-            label="Fonte Secundaria"
+            labelBloco="Fonte Secundaria"
             fontes={fontes}
             fonteSelecionada={fonteSelecionadaSecundaria}
             setFonteSelecionada={setFonteSelecionadaSecundaria}
-            nome={nomeSecundario}
-            setNome={setNomeSecundario}
+            label={nomeSecundario}
+            setLabel={setLabelSecundario}
             tamanho={tamanhoSecundario}
             setTamanho={setTamanhoSecundario}
             fonteVariante={varianteSecundaria}
@@ -143,14 +143,14 @@ export default function FontSelector() {
               <MostraNome
                 dados={{
                   principal: {
-                    nome: nomePrincipal,
+                    label: nomePrincipal,
                     fonte: fonteSelecionadaPrincipal,
                     tamanho: tamanhoPrincipal,
                     cor: corPrincipal,
                     variante: variantePrincipal,
                   },
                   secundario: {
-                    nome: nomeSecundario,
+                    label: nomeSecundario,
                     fonte: fonteSelecionadaSecundaria,
                     tamanho: tamanhoSecundario,
                     cor: corSecundaria,

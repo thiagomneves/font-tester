@@ -127,7 +127,7 @@ export default function MostraNome({
         onMouseOut={handleMouseOut}
         $cor={dados.fundo.cor}
       >
-        {dados.principal.nome.trim() || dados.secundario.nome.trim() ? (
+        {dados.principal.label.trim() || dados.secundario.label.trim() ? (
           <>
             <Span
               className={dados.principal.fonte.classe}
@@ -136,7 +136,7 @@ export default function MostraNome({
               $weight={dados.principal.variante.weight}
               $italic={dados.principal.variante.italic}
             >
-              {dados.principal.nome}
+              {dados.principal.label}
             </Span>
             <Span
               className={dados.secundario.fonte.classe}
@@ -145,7 +145,7 @@ export default function MostraNome({
               $weight={dados.secundario.variante.weight}
               $italic={dados.secundario.variante.italic}
             >
-              {dados.secundario.nome}
+              {dados.secundario.label}
             </Span>
           </>
         ) : (
@@ -181,7 +181,7 @@ export default function MostraNome({
           }}
         >
           <Grid container spacing={2}>
-            {dados.principal.nome.trim() && (
+            {dados.principal.label.trim() && (
               <ListSubheader
                 sx={{ bgcolor: 'inherit', color: 'inherit' }}
                 component="div"
@@ -193,12 +193,12 @@ export default function MostraNome({
                   component="div"
                   id="nested-list-subheader"
                 >
-                  <ListItemText primary={`Nome: ${dados.principal.nome}`} />
+                  <ListItemText primary={`Nome: ${dados.principal.label}`} />
                   <ListItemText
                     primary={`Tamanho: ${dados.principal.tamanho}`}
                   />
                   <ListItemText
-                    primary={`Familia: ${dados.principal.fonte.nome}`}
+                    primary={`Familia: ${dados.principal.fonte.label}`}
                   />
                   <ListItemText primary={`Cor: ${dados.principal.cor}`} />
                   <ListItemText
@@ -213,7 +213,7 @@ export default function MostraNome({
               </ListSubheader>
             )}
 
-            {dados.secundario.nome.trim() && (
+            {dados.secundario.label.trim() && (
               <ListSubheader
                 sx={{ bgcolor: 'inherit', color: 'inherit' }}
                 component="div"
@@ -225,12 +225,12 @@ export default function MostraNome({
                   component="div"
                   id="nested-list-subheader"
                 >
-                  <ListItemText primary={`Nome: ${dados.secundario.nome}`} />
+                  <ListItemText primary={`Nome: ${dados.secundario.label}`} />
                   <ListItemText
                     primary={`Tamanho: ${dados.secundario.tamanho}`}
                   />
                   <ListItemText
-                    primary={`Familia: ${dados.secundario.fonte.nome}`}
+                    primary={`Familia: ${dados.secundario.fonte.label}`}
                   />
                   <ListItemText primary={`Cor: ${dados.secundario.cor}`} />
                   <ListItemText
