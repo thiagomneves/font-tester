@@ -499,6 +499,19 @@
     ]
   },
   {
+    "label": "Army Rust",
+    "classe": "army-rust",
+    "tipo": "serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "italic": false,
+        "id": 1
+      }
+    ]
+  },
+  {
     "label": "Artifika",
     "classe": "artifika",
     "tipo": "serif",
@@ -984,6 +997,20 @@
       }
     ],
     "classe": "berkshire-swash"
+  },
+  {
+    "label": "Black Ops One",
+    "site": "google",
+    "tipo": "cursive",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false,
+        "id": 1
+      }
+    ],
+    "classe": "black-ops-one"
   },
   {
     "label": "Cabin",
@@ -2822,6 +2849,20 @@
         "description": "Bold",
         "italic": true,
         "id": 4
+      }
+    ]
+  },
+  {
+    "label": "Military Poster",
+    "classe": "military-poster",
+    "tipo": "sans-serif",
+    "site": "cdnfonts",
+    "variantes": [
+      {
+        "weight": 400,
+        "description": "Regular",
+        "italic": false,
+        "id": 1
       }
     ]
   },

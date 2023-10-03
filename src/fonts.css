@@ -38,6 +38,7 @@ museo
 @import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
@@ -115,6 +116,7 @@ museo
 @import url('https://fonts.cdnfonts.com/css/calling-heart');
 @import url('https://fonts.cdnfonts.com/css/nexa');
 @import url('https://fonts.cdnfonts.com/css/aileron');
+@import url('https://fonts.cdnfonts.com/css/army-rust');
 @import url('https://fonts.cdnfonts.com/css/bebas-kai');
 @import url('https://fonts.cdnfonts.com/css/bebas-neue');
 @import url('https://fonts.cdnfonts.com/css/avenir');
@@ -123,6 +125,7 @@ museo
 @import url('https://fonts.cdnfonts.com/css/futura-std-4');
 @import url('https://fonts.cdnfonts.com/css/calibri-light');
 @import url('https://fonts.cdnfonts.com/css/hack');
+@import url('https://fonts.cdnfonts.com/css/military-poster');
 @import url('https://fonts.cdnfonts.com/css/monaco');
 @import url('https://fonts.cdnfonts.com/css/molle');
 @import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
@@ -142,6 +145,7 @@ museo
 .arial-ce-mt-black {font-family: 'Arial CE MT Black', sans-serif;}
 .arial-light {font-family: 'Arial Light', sans-serif;}
 .arizonia {font-family: 'Arizonia', cursive;}
+.army-rust {font-family: 'Army Rust', serif;}
 .artifika {font-family: 'Artifika', serif;}
 .asap {font-family: 'Asap', sans-serif;}
 .asul {font-family: 'Asul', sans-serif;}
@@ -155,6 +159,7 @@ museo
 .belgrano {font-family: 'Belgrano', cursive;}
 .benchnine {font-family: 'BenchNine', sans-serif;}
 .berkshire-swash {font-family: 'Berkshire Swash', cursive;}
+.black-ops-one {font-family: 'Black Ops One', cursive;}
 .cabin {font-family: 'Cabin', sans-serif;}
 .calibri {font-family: 'Calibri', sans-serif;}
 .calling-heart {font-family: 'Calling Heart', cursive;}
@@ -196,6 +201,7 @@ museo
 .lora {font-family: 'Lora', serif;}
 .marcellus-sc {font-family: 'Marcellus SC', serif;}
 .marvel {font-family: 'Marvel', sans-serif;}
+.military-poster { font-family: 'Military Poster', sans-serif;}
 .miltonian {font-family: 'Miltonian', cursive;}
 .molle {font-family: 'Molle', cursive;}
 .monaco {font-family: 'Monaco', sans-serif;}
