@@ -64,12 +64,20 @@ function isValidJSONStructure(data: any): data is FontTesterData {
       typeof item.principal !== 'object' ||
       typeof item.secundario !== 'object' ||
       typeof item.fundo !== 'object' ||
-      typeof item.principal.nome !== 'string' ||
-      typeof item.principal.fonte !== 'string' ||
+      typeof item.principal.label !== 'string' ||
+      typeof item.principal.fonte !== 'object' ||
+      typeof item.principal.fonte.label !== 'string' ||
+      typeof item.principal.fonte.tipo !== 'string' ||
+      typeof item.principal.fonte.classe !== 'string' ||
+      typeof item.principal.fonte.variantes !== 'object' ||
       typeof item.principal.tamanho !== 'number' ||
       typeof item.principal.cor !== 'string' ||
-      typeof item.secundario.nome !== 'string' ||
-      typeof item.secundario.fonte !== 'string' ||
+      typeof item.secundario.label !== 'string' ||
+      typeof item.secundario.fonte !== 'object' ||
+      typeof item.secundario.fonte.label !== 'string' ||
+      typeof item.secundario.fonte.tipo !== 'string' ||
+      typeof item.secundario.fonte.classe !== 'string' ||
+      typeof item.secundario.fonte.variantes !== 'object' ||
       typeof item.secundario.tamanho !== 'number' ||
       typeof item.secundario.cor !== 'string' ||
       typeof item.fundo.cor !== 'string'
