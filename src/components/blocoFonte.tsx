@@ -106,7 +106,7 @@ export default function BlocoFonte({
   const RenderVariantes = () => {
     return (
       <TextField
-        id="variantes"
+        id={`${form}_variantes`}
         label="Variantes"
         select
         helperText="Variantes da fonte"
@@ -139,7 +139,7 @@ export default function BlocoFonte({
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={3}>
           <TextField
-            id="nome"
+            id={`${form}_nome`}
             defaultValue={label}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
               setLabel(e.target.value)
@@ -152,7 +152,7 @@ export default function BlocoFonte({
         <Grid item xs={12} sm={6} md={3}>
           <Autocomplete
             disablePortal
-            id="fonte"
+            id={`${form}_fonte`}
             options={fontesFiltradas}
             getOptionLabel={(option) => option.label}
             value={fonteSelecionada}
@@ -179,7 +179,7 @@ export default function BlocoFonte({
         </Grid>
         <Grid item xs={12} sm={6} md={3} lg={2}>
           <TextField
-            id="tipo"
+            id={`${form}_tipo`}
             label="Tipo"
             select
             value={tipoSelecionado}
@@ -197,7 +197,7 @@ export default function BlocoFonte({
         </Grid>
         <Grid item xs={12} sm={6} md={3} lg={2}>
           <TextField
-            id="outlined-number"
+            id={`${form}_outlined-number`}
             label="Tamanho"
             type="number"
             value={tamanho.toString()}
