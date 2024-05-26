@@ -133,6 +133,16 @@ export default function BlocoFonte({
     )
   }
 
+  const handleAutocompleteOpen = () => {
+    setOpenAutocomplete(true)
+    setTimeout(() => {
+      const optionEl = document.querySelector(
+        `[data-name="${form}${fonteSelecionada.classe}"]`
+      );
+      optionEl?.scrollIntoView();
+    }, 1)
+  }
+
   return (
     <>
       <Typography variant="h6" gutterBottom>
@@ -159,7 +169,7 @@ export default function BlocoFonte({
             getOptionLabel={(option) => option.label}
             value={fonteSelecionada}
             open={openAutocomplete}
-            onOpen={() => setOpenAutocomplete(true)}
+            onOpen={handleAutocompleteOpen}
             onClose={() => setOpenAutocomplete(false)}
             renderOption={(_e, fonte) => {
               return (
@@ -167,6 +177,7 @@ export default function BlocoFonte({
                   key={fonte.label}
                   value={fonte.classe}
                   onClick={(e) => handleSelecionaFonte(e, fonte)}
+                  data-name={`${form}${fonte.classe}`}
                 >
                   <span className={fonte.classe}>{label.trim() ? label + ' - ': ''}{fonte.label}</span>
                 </MenuItem>
