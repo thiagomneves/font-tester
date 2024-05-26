@@ -76,6 +76,37 @@ export default function FontSelector() {
     <>
       <Card variant="outlined">
         <FontSelectorContainer>
+        <Grid
+            container
+            spacing={0}
+            alignItems="center"
+            justifyContent="center"
+            marginTop={2}
+          >
+            <Grid item xs={12} sm={6}>
+              <MostraNome
+                dados={{
+                  principal: {
+                    label: nomePrincipal,
+                    fonte: fonteSelecionadaPrincipal,
+                    tamanho: tamanhoPrincipal,
+                    cor: corPrincipal,
+                    variante: variantePrincipal,
+                  },
+                  secundario: {
+                    label: nomeSecundario,
+                    fonte: fonteSelecionadaSecundaria,
+                    tamanho: tamanhoSecundario,
+                    cor: corSecundaria,
+                    variante: varianteSecundaria,
+                  },
+                  fundo: {
+                    cor: corFundo,
+                  },
+                }}
+              />
+            </Grid>
+          </Grid>
           <BlocoFonte
             labelBloco="Fonte Principal"
             fontes={fontes}
@@ -129,38 +160,6 @@ export default function FontSelector() {
               >
                 Adicionar
               </Button>
-            </Grid>
-          </Grid>
-
-          <Grid
-            container
-            spacing={0}
-            alignItems="center"
-            justifyContent="center"
-            marginTop={2}
-          >
-            <Grid item xs={12} sm={6}>
-              <MostraNome
-                dados={{
-                  principal: {
-                    label: nomePrincipal,
-                    fonte: fonteSelecionadaPrincipal,
-                    tamanho: tamanhoPrincipal,
-                    cor: corPrincipal,
-                    variante: variantePrincipal,
-                  },
-                  secundario: {
-                    label: nomeSecundario,
-                    fonte: fonteSelecionadaSecundaria,
-                    tamanho: tamanhoSecundario,
-                    cor: corSecundaria,
-                    variante: varianteSecundaria,
-                  },
-                  fundo: {
-                    cor: corFundo,
-                  },
-                }}
-              />
             </Grid>
           </Grid>
         </FontSelectorContainer>
