@@ -163,7 +163,7 @@ export default function BlocoFonte({
                   value={fonte.classe}
                   onClick={(e) => handleSelecionaFonte(e, fonte)}
                 >
-                  <span className={fonte.classe}>{fonte.label}</span>
+                  <span className={fonte.classe}>{label.trim() ? label + ' - ': ''}{fonte.label}</span>
                 </MenuItem>
               )
             }}
@@ -173,7 +173,6 @@ export default function BlocoFonte({
                 label="Fonte"
                 helperText="Selecione uma Fonte"
                 variant={variant}
-                onChange={() => console.log('porramammm')}
               />
             )}
           />
