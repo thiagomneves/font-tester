@@ -2,12 +2,12 @@ import { Container } from '@mui/material'
 import './App.css'
 import FontSelector from './components/fontSelector'
 import ListaSalvos from './components/listaSalvos'
-import ImportaExporta from './components/importaExporta'
+import HeaderButtons from './components/headerButtons'
 
 function App() {
   return (
     <Container>
-      <ImportaExporta/>
+      <HeaderButtons/>
       <FontSelector />
       <ListaSalvos />
     </Container>

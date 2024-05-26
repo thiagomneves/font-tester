@@ -1,4 +1,4 @@
-import { FileUploadOutlined, FileDownloadOutlined } from '@mui/icons-material'
+import { FileUploadOutlined, FileDownloadOutlined, DeleteOutline } from '@mui/icons-material'
 import { IconButton, Tooltip } from '@mui/material'
 import { ChangeEvent, useContext } from 'react'
 import { LocalStorageContext } from '../contexts/LocalStorageContext'
@@ -10,8 +10,8 @@ const IconsContainer = styled.div`
   text-align: right;
 `
 
-export default function ImportaExporta() {
-  const { setLocalStorageData } = useContext(LocalStorageContext)
+export default function HeaderButtons() {
+  const { localStorageData, setLocalStorageData } = useContext(LocalStorageContext)
 
   const handleImportar = async (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files && event.target.files[0]
@@ -37,8 +37,23 @@ export default function ImportaExporta() {
     exportDataToJSONFile()
   }
 
+  const handleClear = () => {
+    if (window.confirm("Tem certeza que deseja limpar tudo?")) {
+      const updatedLocalStorageData = {
+        ...localStorageData,
+        dados: []
+      }
+      setLocalStorageData(updatedLocalStorageData)
+    }
+  }
+
   return (
     <IconsContainer>
+      <Tooltip onClick={handleClear} title="Limpar">
+        <IconButton>
+          <DeleteOutline/>
+        </IconButton>
+      </Tooltip>
       <input
         type="file"
         id="fileInput"
