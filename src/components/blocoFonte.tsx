@@ -41,6 +41,7 @@ export default function BlocoFonte({
   const [tipoSelecionado, setTipoSelecionado] = useState<string>('')
   const [fontesFiltradas, setFontesFiltradas] = useState<Fonte[]>(fontes)
   const [tipos, setTipos] = useState<string[]>([])
+  const [openAutocomplete, setOpenAutocomplete] = useState<boolean>(false)
 
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
@@ -101,6 +102,7 @@ export default function BlocoFonte({
   const handleSelecionaFonte = (_, fonte: Fonte) => {
     setFonteSelecionada(fonte)
     setFonteVariante(varianteInicial(fonte))
+    setOpenAutocomplete(false)
   }
 
   const RenderVariantes = () => {
@@ -156,6 +158,9 @@ export default function BlocoFonte({
             options={fontesFiltradas}
             getOptionLabel={(option) => option.label}
             value={fonteSelecionada}
+            open={openAutocomplete}
+            onOpen={() => setOpenAutocomplete(true)}
+            onClose={() => setOpenAutocomplete(false)}
             renderOption={(_e, fonte) => {
               return (
                 <MenuItem
