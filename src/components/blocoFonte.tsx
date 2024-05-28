@@ -99,7 +99,7 @@ export default function BlocoFonte({
     setFonteVariante(varianteSelecionada)
   }
 
-  const handleSelecionaFonte = (_, fonte: Fonte) => {
+  const handleSelecionaFonte = (_: any, fonte: Fonte) => {
     setFonteSelecionada(fonte)
     setFonteVariante(varianteInicial(fonte))
     setOpenAutocomplete(false)
